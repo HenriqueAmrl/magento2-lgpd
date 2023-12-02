@@ -7,4 +7,4 @@ declare(strict_types=1);
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Opengento_Gdpr', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'HenriqueAmrl_Lgpd', __DIR__);

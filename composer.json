@@ -1,13 +1,12 @@
 {
-    "name": "opengento/module-gdpr",
-    "description": "Gdpr Compliance Module for Magento 2",
+    "name": "henriqueamrl/module-lgpd",
+    "description": "Módulo de compliance com a LGPD para Magento 2",
     "keywords": [
         "php",
         "magento",
         "magento2",
-        "gdpr",
-        "rgpd",
-        "privacy"
+        "lgpd",
+        "privacidade"
     ],
     "require": {
         "php": "^7.4||^8.0",
@@ -35,24 +34,10 @@
     "license": [
         "MIT"
     ],
-    "homepage": "https://github.com/opengento/magento2-gdpr",
-    "authors": [
-        {
-            "name": "Opengento Team",
-            "email": "opengento@gmail.com",
-            "homepage": "https://opengento.fr/",
-            "role": "lead"
-        },
-        {
-            "name": "Thomas Klein",
-            "email": "thomaskein876@gmail.com",
-            "homepage": "https://www.linkedin.com/in/thomas-klein/",
-            "role": "maintainer"
-        }
-    ],
+    "homepage": "https://github.com/HenriqueAmrl/magento2-lgpd",
     "support": {
-        "source": "https://github.com/opengento/magento2-gdpr",
-        "issues": "https://github.com/opengento/magento2-gdpr/issues"
+        "source": "https://github.com/HenriqueAmrl/magento2-lgpd",
+        "issues": "https://github.com/HenriqueAmrl/magento2-lgpd/issues"
     },
     "autoload": {
         "files": [
