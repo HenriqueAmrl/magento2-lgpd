@@ -1,0 +1,219 @@
+Back,Voltar
+Execute Action,Executar Ação
+Reset,Resetar
+Attribute Code,Código de Atributo
+Anonymizer,Anonimizador
+Add Attribute's Anonymizer,Adicionar Anonimizador de Atributo
+Component,Componente
+Processor,Processador
+Add Component Erasure Strategy,Adicionar Estratégia de Apagamento de Componente
+Erase Personal Data,Apagar Dados Pessoais
+Are you sure you want to do this?,Você tem certeza de que deseja fazer isso?
+Export Personal Data,Exportar Dados Pessoais
+The action state is now: %1.,O estado da ação agora é: %1.
+An error occurred on the server.,Ocorreu um erro no servidor.
+View Actions,Ver Ações
+GDPR,GDPR
+Please correct the data sent.,"Por favor, corrija os dados enviados."
+"Action with ID ""%1"": %2","Ação com ID ""%1"": %2"
+A total of %1 record(s) have been deleted.,Um total de %1 registro(s) foram apagados.
+Execute New Action,Executar Nova Ação
+You erased the order.,Você apagou o pedido.
+You erased the customer.,Você apagou o cliente.
+"Customer with id ""%1"": %2","Cliente com ID ""%1"": %2"
+A total of %1 record(s) were erased.,Um total de %1 registro(s) foram apagados.
+The document does not exists and may have expired. Please renew your demand.,"O documento não existe ou pode ter expirado. Por favor, renove sua solicitação."
+"Something went wrong, please try again later!","Algo deu errado, por favor, tente novamente mais tarde!"
+Your personal data is being removed soon.,Seus dados pessoais estão prestes a serem removidos.
+You will be notified when the export is ready.,Você será notificado quando a exportação estiver pronta.
+A document is already available in your order page.,Um documento já está disponível na página do seu pedido.
+You canceled your personal data deletion.,Você cancelou a exclusão dos seus dados pessoais.
+Your account is already being removed.,Sua conta já está sendo removida.
+The session initialization has failed.,A inicialização da sessão falhou.
+You did not sign in correctly or your account is temporarily disabled.,Você não fez login corretamente ou sua conta está temporariamente desativada.
+A document is already available in your account.,Já existe um documento disponível em sua conta.
+You canceled your account deletion.,Você cancelou a exclusão da sua conta.
+Could not save the entity.,Não foi possível salvar a entidade.
+"Could not delete entity with id ""%1"".","Não foi possível excluir a entidade com o ID ""%1""."
+"File ""%1"" does not exists.","O arquivo ""%1"" não existe."
+Succeeded,Bem-sucedido
+Failed,Falha
+"Impossible to initiate the erasure, it's already processing or there is still pending orders.","Impossível iniciar o apagamento, ele já está em processamento ou ainda existem pedidos pendentes."
+The erasure process is running and cannot be undone.,O processo de apagamento está em execução e não pode ser desfeito.
+"Impossible to process the erasure, there is still pending orders.","Impossível processar o apagamento, ainda existem pedidos pendentes."
+Impossible to process the erasure: %1,Impossível processar o apagamento: %1
+"An export entity already exists for the entity type ""%1"" with ID ""%2"".","Já existe uma entidade de exportação para o tipo de entidade ""%1"" com ID ""%2""."
+GDPR Email Success,Sucesso do E-mail GDPR
+GDPR Email Error: %1,Erro do E-mail GDPR: %1
+"State ""%1"" does not exists.","O estado ""%1"" não existe."
+* Required Fields,* Campos Obrigatórios
+Confirm password to continue,Confirme a senha para continuar
+Password,Senha
+Erase Account,Apagar Conta
+Warning,Aviso
+Do you really want to erase your personal data?,Você realmente deseja apagar seus dados pessoais?
+Right to be forgotten,Direito de ser esquecido
+Your account will be erased soon. You can undo this action.,Sua conta será apagada em breve. Você pode desfazer esta ação.
+Undo Action,Desfazer Ação
+Your account cannot be erased while you have pending orders.,Sua conta não pode ser apagada enquanto você tiver pedidos pendentes.
+Download Personal Data,Baixar Dados Pessoais
+Your personal data document is pending export.,Seu documento de dados pessoais está pendente de exportação.
+Information,Informação
+We use cookies to make your experience better.,Nós utilizamos cookies para melhorar sua experiência.
+"<a href=""%1"">Learn more</a>.",Saiba mais.
+Allow Cookies,Permitir Cookies
+Undo Erase Personal Data,Desfazer Apagamento de Dados Pessoais
+Cancellation of the erase of your %store_name information,Cancelamento do apagamento das suas informações da %store_name
+"%name,","%name,"
+We have received a request to cancel the erasure of the information associated with your account at %store_name.,Recebemos uma solicitação para cancelar o apagamento das informações associadas à sua conta na %store_name.
+"If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Se você não autorizou esta ação, entre em contato conosco imediatamente pelo e-mail %store_email"
+Erase your %store_name information,Apagar suas informações da %store_name
+We have received a request to erase the information associated with your account at %store_name.,Recebemos uma solicitação para apagar as informações associadas à sua conta na %store_name.
+"You can cancel the erase within %delay hours by <a href=""%account_url"">logging into your account</a>.",Você pode cancelar o apagamento dentro de %delay horas fazendo login em sua conta.
+Erasure of your %store_name information,Apagamento das suas informações da %store_name
+We have successfully erased the information associated with your account at %store_name.,Apagamos com sucesso as informações associadas à sua conta na %store_name.
+Export your %store_name information,Exportar suas informações da %store_name
+We have received a request to export the information associated with your account at %store_name.,Recebemos uma solicitação para exportar as informações associadas à sua conta na %store_name.
+We will notify you when the export will be ready. The action will be available in your account.,Notificaremos você quando a exportação estiver pronta. A ação estará disponível em sua conta.
+The export of you personal data is ready. The action is now available in your account.,A exportação dos seus dados pessoais está pronta. A ação está agora disponível em sua conta.
+GDPR Compliance Erase Customer,Conformidade GDPR Apagar Cliente
+GDPR Compliance Export Customer,Conformidade GDPR Exportar Cliente
+GDPR Compliance Erase Guest Order,Conformidade GDPR Apagar Pedido de Visitante
+GDPR Compliance Export Guest Order,Conformidade GDPR Exportar Pedido de Visitante
+GDPR Actions,Ações GDPR
+Execute Actions,Executar Ações
+Edit Actions,Editar Ações
+Delete Actions,Apagar Ações
+GDPR Compliance Section,Seção de Conformidade GDPR
+Action Logs,Logs de Ações
+GDPR Compliance,Conformidade GDPR
+User Action,Ação do Usuário
+Action Settings,Configurações de Ação
+Cookie Policy,Política de Cookies
+Cookie Settings,Configurações de Cookies
+Improve Cookie Restriction Message,Melhorar Mensagem de Restrição de Cookies
+"It will allows to replace the default cookie restriction popin with content of your own. Make sure that the following configuration is enabled: ""General / Web / Default Cookie Settings / Cookie Restriction Mode"".","Permite substituir o popin padrão de restrição de cookies por um conteúdo próprio. Certifique-se de que a seguinte configuração esteja habilitada: ""Geral / Web / Configurações Padrão de Cookies / Modo de Restrição de Cookies""."
+Information Block,Bloco de Informações
+Information Page,Página de Informações
+Data Erasure,Apagamento de Dados
+Right To Erasure,Direito Ao Apagamento
+Erasure,Apagamento
+It will enable the erase action to the storefront.,Habilita a ação de apagamento na loja.
+Erasure Delay,Atraso do Apagamento
+Erasure delay in minute before the execution by the cron. From 60 to 43800.,Atraso do apagamento em minutos antes da execução pelo cron. De 60 a 43800.
+Erase Entity Cron Schedule,Cronograma de Apagar Entidade
+Entities Lifetime,Tempo de Vida das Entidades
+The time is in days.,O tempo está em dias.
+Erase Old Entities Cron Schedule,Cronograma de Apagar Entidades Antigas
+Sales Information Lifetime,Tempo de Vida das Informações de Vendas
+Allowed Order States to Erase,Estados de Pedido Permitidos para Apagar
+Customer Component Erasure Strategy,Estratégia de Apagamento de Componente do Cliente
+Defines the components erasure strategy with the component/erase processor mapper for the customers.,Define a estratégia de apagamento de componentes com o mapeador de componente/apagamento para os clientes.
+Guest Component Erasure Strategy,Estratégia de Apagamento de Componente do Visitante
+Defines the components erasure strategy with the component/erase processor mapper for the guests.,Define a estratégia de apagamento de componentes com o mapeador de componente/apagamento para os visitantes.
+Anonymization,Anonimização
+Delete Customer if no Orders,Apagar Cliente se não Houver Pedidos
+"We will delete the customer if he has no orders. It's only applicable if the component ""customer"" use the ""anonymize"" processor.","Apagaremos o cliente se ele não tiver pedidos. Isso só se aplica se o componente ""cliente"" usar o processador ""anonimizar""."
+Customer Attributes Anonymizers,Anonimizadores de Atributos do Cliente
+Customer Custom Attributes Anonymizers,Anonimizadores de Atributos Personalizados do Cliente
+Customer Extensible Data Anonymizers,Anonimizadores de Dados Extensíveis do Cliente
+Customer Address Attributes Anonymizers,Anonimizadores de Atributos de Endereço do Cliente
+Customer Address Custom Attributes Anonymizers,Anonimizadores de Atributos Personalizados de Endereço do Cliente
+Customer Address Extensible Data Anonymizers,Anonimizadores de Dados Extensíveis de Endereço do Cliente
+Quote Attributes Anonymizers,Anonimizadores de Atributos do Orçamento
+Quote Custom Attributes Anonymizers,Anonimizadores de Atributos Personalizados do Orçamento
+Quote Extensible Data Anonymizers,Anonimizadores de Dados Extensíveis do Orçamento
+Quote Address Attributes Anonymizers,Anonimizadores de Atributos de Endereço do Orçamento
+Quote Address Custom Attributes Anonymizers,Anonimizadores de Atributos Personalizados de Endereço do Orçamento
+Quote Address Extensible Data Anonymizers,Anonimizadores de Dados Extensíveis de Endereço do Orçamento
+Order Attributes Anonymizers,Anonimizadores de Atributos do Pedido
+Order Custom Attributes Anonymizers,Anonimizadores de Atributos Personalizados do Pedido
+Order Extensible Data Anonymizers,Anonimizadores de Dados Extensíveis do Pedido
+Order Address Attributes Anonymizers,Anonimizadores de Atributos de Endereço do Pedido
+Order Address Custom Attributes Anonymizers,Anonimizadores de Atributos Personalizados de Endereço do Pedido
+Order Address Extensible Data Anonymizers,Anonimizadores de Dados Extensíveis de Endereço do Pedido
+Subscriber Attributes Anonymizers,Anonimizadores de Atributos do Assinante
+Data Export,Exportar Dados
+Export Settings,Configurações de Exportação
+Export,Exportar
+It will enable the export action to the storefront.,Habilita a ação de exportação na loja.
+Renderers,Renderizadores
+Select formats of the export. Notice: At least one human and one machine readable format should be selected.,Selecione os formatos da exportação. Atenção: pelo menos um formato legível para humanos e um formato legível para máquinas devem ser selecionados.
+Export File Name,Nome do Arquivo de Exportação
+We will use this value as file name of the document export.,Usaremos este valor como nome de arquivo da exportação do documento.
+Export Scheduler,Agendador de Exportação
+Export Life Time,Tempo de Vida da Exportação
+Export life time in minute before it is removed from the server.,Tempo de vida da exportação em minutos antes de ser removida do servidor.
+Erase Expired Export Schedule,Apagar Agendamento de Exportação Expirado
+Customer,Cliente
+Customer Attributes,Atributos do Cliente
+This attributes list will be exported when processed.,Esta lista de atributos será exportada quando processada.
+Customer Custom Attributes,Atributos Personalizados do Cliente
+Comma-separated,Separados por Vírgulas
+Customer Extensible Data,Dados Extensíveis do Cliente
+Customer Address Attributes,Atributos de Endereço do Cliente
+Customer Address Custom Attributes,Atributos Personalizados de Endereço do Cliente
+Customer Address Extensible Data,Dados Extensíveis de Endereço do Cliente
+Quote Attributes,Atributos do Orçamento
+Quote Custom Attributes,Atributos Personalizados do Orçamento
+Quote Extensible Data,Dados Extensíveis do Orçamento
+Quote Address Attributes,Atributos de Endereço do Orçamento
+Quote Address Custom Attributes,Atributos Personalizados de Endereço do Orçamento
+Quote Address Extensible Data,Dados Extensíveis de Endereço do Orçamento
+Order Attributes,Atributos do Pedido
+Order Custom Attributes,Atributos Personalizados do Pedido
+Order Extensible Data,Dados Extensíveis do Pedido
+Order Address Attributes,Atributos de Endereço do Pedido
+Order Address Custom Attributes,Atributos Personalizados de Endereço do Pedido
+Order Address Extensible Data,Dados Extensíveis de Endereço do Pedido
+Subscriber Attributes,Atributos do Assinante
+Global,Global
+General,Geral
+Enabled,Habilitado
+It will enable the module features in the admin and frontend ui.,Habilita as funcionalidades do módulo na interface admin e frontend.
+Information page,Página de Informações
+This page should store information about privacy and GDPR policy.,Esta página deve armazenar informações sobre privacidade e política de GDPR.
+User Notification,Notificação do Usuário
+Notification,Notificação
+Pending Action,Ação Pendente
+Email Sender,Remetente de E-mail
+Pending Erasure Template,Modelo de Apagamento Pendente
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Modelo de e-mail escolhido com base na hierarquia de temas quando a opção ""Padrão"" é selecionada."
+Pending Erasure Template for Guest,Modelo de Apagamento Pendente para Visitante
+Send Email Copy To,Enviar Cópia de E-mail Para
+Send Email Copy Method,Método de Envio de Cópia de E-mail
+Succeeded Action,Ação Bem-sucedida
+Succeeded Erasure Template,Modelo de Apagamento Bem-sucedido
+Succeeded Erasure Template for Guest,Modelo de Apagamento Bem-sucedido para Visitante
+Canceled Action,Ação Cancelada
+Canceled Erasure Template,Modelo de Apagamento Cancelado
+Canceled Erasure Template for Guest,Modelo de Apagamento Cancelado para Visitante
+Pending Export Template,Modelo de Exportação Pendente
+Pending Export Template for Guest,Modelo de Exportação Pendente para Visitante
+Ready Action,Ação Pronta
+Ready Export Template,Modelo de Exportação Pronto
+Ready Export Template for Guest,Modelo de Exportação Pronto para Visitante
+Are you sure you want to erase the selected customers?,Você tem certeza de que deseja apagar os clientes selecionados?
+Erase items,Apagar itens
+Erase (GDPR),Apagar (GDPR)
+Are you sure you want to export the selected customers?,Você tem certeza de que deseja exportar os clientes selecionados?
+Export items,Exportar itens
+Export (GDPR),Exportar (GDPR)
+New Action,Nova Ação
+Type,Tipo
+Action types are registered in the code.,Os tipos de ação são registrados no código.
+Parameters,Parâmetros
+Add Parameter,Adicionar Parâmetro
+Name,Nome
+Value,Valor
+Edit,Editar
+Are you sure you want to delete the action log?,Você tem certeza de que deseja apagar o registro de ação?
+Delete items,Apagar itens
+Delete,Apagar
+ID,ID
+Performed From,Realizado De
+Performed By,Realizado Por
+Performed At,Realizado Em
+State,Estado
+Message,Mensagem
+Privacy Settings,Configurações de Privacidade
