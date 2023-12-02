@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Delete\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Delete\Processor;
 
 use Magento\Customer\Api\AddressRepositoryInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 
 final class CustomerAddressDataProcessor implements ProcessorInterface
 {

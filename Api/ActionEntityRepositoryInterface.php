@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Api;
+namespace HenriqueAmrl\Lgpd\Api;
 
 use Magento\Framework\Api\SearchCriteriaInterface;
 use Magento\Framework\Api\SearchResultsInterface;
@@ -13,8 +13,8 @@ use Magento\Framework\Exception\CouldNotDeleteException;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Api\Data\ActionEntitySearchResultsInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntitySearchResultsInterface;
 
 /**
  * @api

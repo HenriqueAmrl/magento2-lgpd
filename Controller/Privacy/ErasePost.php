@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Privacy;
+namespace HenriqueAmrl\Lgpd\Controller\Privacy;
 
 use Exception;
 use Magento\Customer\Model\AuthenticationInterface;
@@ -21,11 +21,11 @@ use Magento\Framework\Exception\SessionException;
 use Magento\Framework\Exception\State\UserLockedException;
 use Magento\Framework\Message\ManagerInterface;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\ActionInterface;
-use Opengento\Gdpr\Controller\AbstractPrivacy;
-use Opengento\Gdpr\Model\Action\ArgumentReader;
-use Opengento\Gdpr\Model\Action\ContextBuilder;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Api\ActionInterface;
+use HenriqueAmrl\Lgpd\Controller\AbstractPrivacy;
+use HenriqueAmrl\Lgpd\Model\Action\ArgumentReader;
+use HenriqueAmrl\Lgpd\Model\Action\ContextBuilder;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 class ErasePost extends AbstractPrivacy implements HttpPostActionInterface
 {

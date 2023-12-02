@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Export\Renderer;
+namespace HenriqueAmrl\Lgpd\Service\Export\Renderer;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Exception\FileSystemException;
 use Magento\Framework\Filesystem;
-use Opengento\Gdpr\Service\Export\RendererInterface;
+use HenriqueAmrl\Lgpd\Service\Export\RendererInterface;
 
 abstract class AbstractRenderer implements RendererInterface
 {

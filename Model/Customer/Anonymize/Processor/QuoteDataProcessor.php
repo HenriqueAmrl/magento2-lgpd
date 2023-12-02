@@ -5,15 +5,15 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Anonymize\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Anonymize\Processor;
 
 use Exception;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Quote\Api\CartRepositoryInterface;
 use Magento\Quote\Model\Quote;
 use Magento\Quote\Model\ResourceModel\Quote\Address;
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 
 final class QuoteDataProcessor implements ProcessorInterface
 {

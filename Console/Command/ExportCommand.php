@@ -5,18 +5,18 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Console\Command;
+namespace HenriqueAmrl\Lgpd\Console\Command;
 
 use Exception;
 use Magento\Framework\App\Area;
 use Magento\Framework\App\State;
 use Magento\Framework\Console\Cli;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Api\ActionInterface;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Model\Action\ArgumentReader;
-use Opengento\Gdpr\Model\Action\ContextBuilder;
-use Opengento\Gdpr\Model\Action\Export\ArgumentReader as ExportArgumentReader;
+use HenriqueAmrl\Lgpd\Api\ActionInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Model\Action\ArgumentReader;
+use HenriqueAmrl\Lgpd\Model\Action\ContextBuilder;
+use HenriqueAmrl\Lgpd\Model\Action\Export\ArgumentReader as ExportArgumentReader;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -39,7 +39,7 @@ class ExportCommand extends Command
         State $appState,
         ActionInterface $action,
         ContextBuilder $actionContextBuilder,
-        string $name = 'gdpr:entity:export'
+        string $name = 'lgpd:entity:export'
     ) {
         $this->appState = $appState;
         $this->action = $action;

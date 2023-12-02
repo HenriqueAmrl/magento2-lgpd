@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Adminhtml\Action;
+namespace HenriqueAmrl\Lgpd\Controller\Adminhtml\Action;
 
 use Exception;
 use Magento\Backend\App\Action;
@@ -16,8 +16,8 @@ use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\EntityManager\HydratorPool;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\ActionEntityRepositoryInterface;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Api\ActionEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
 use Psr\Log\LoggerInterface;
 use function array_fill_keys;
 use function array_intersect_key;
@@ -26,7 +26,7 @@ use function is_array;
 
 class InlineEdit extends Action implements HttpPostActionInterface
 {
-    public const ADMIN_RESOURCE = 'Opengento_Gdpr::gdpr_actions_edit';
+    public const ADMIN_RESOURCE = 'HenriqueAmrl_Lgpd::lgpd_actions_edit';
 
     private ActionEntityRepositoryInterface $actionRepository;
 

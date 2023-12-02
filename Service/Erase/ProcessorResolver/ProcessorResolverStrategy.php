@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Erase\ProcessorResolver;
+namespace HenriqueAmrl\Lgpd\Service\Erase\ProcessorResolver;
 
-use Opengento\Gdpr\Service\Erase\MetadataInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorResolverFactory;
-use Opengento\Gdpr\Service\Erase\ProcessorResolverInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\MetadataInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorResolverFactory;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorResolverInterface;
 
 final class ProcessorResolverStrategy implements ProcessorResolverInterface
 {

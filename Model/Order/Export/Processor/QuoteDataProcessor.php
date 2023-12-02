@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order\Export\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Order\Export\Processor;
 
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Quote\Api\CartRepositoryInterface;
@@ -13,7 +13,7 @@ use Magento\Quote\Model\Quote;
 use Magento\Quote\Model\Quote\Address;
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Api\OrderRepositoryInterface;
-use Opengento\Gdpr\Model\Entity\DataCollectorInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\DataCollectorInterface;
 
 final class QuoteDataProcessor extends AbstractDataProcessor
 {

@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order\Delete\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Order\Delete\Processor;
 
 use DateTime;
 use Exception;
 use Magento\Sales\Api\OrderRepositoryInterface;
-use Opengento\Gdpr\Api\EraseSalesInformationInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Api\EraseSalesInformationInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 
 final class OrderDataProcessor implements ProcessorInterface
 {

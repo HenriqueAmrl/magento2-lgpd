@@ -5,16 +5,16 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action\Erase;
+namespace HenriqueAmrl\Lgpd\Model\Action\Erase;
 
 use Magento\Framework\Exception\InputException;
 use Magento\Framework\ObjectManagerInterface;
-use Opengento\Gdpr\Api\Data\ActionContextInterface;
-use Opengento\Gdpr\Api\Data\ActionResultInterface;
-use Opengento\Gdpr\Model\Action\AbstractAction;
-use Opengento\Gdpr\Model\Action\ArgumentReader as ActionArgumentReader;
-use Opengento\Gdpr\Model\Action\ResultBuilder;
-use Opengento\Gdpr\Model\Erase\NotifierInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionContextInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionResultInterface;
+use HenriqueAmrl\Lgpd\Model\Action\AbstractAction;
+use HenriqueAmrl\Lgpd\Model\Action\ArgumentReader as ActionArgumentReader;
+use HenriqueAmrl\Lgpd\Model\Action\ResultBuilder;
+use HenriqueAmrl\Lgpd\Model\Erase\NotifierInterface;
 
 final class NotifierActionBundle extends AbstractAction
 {

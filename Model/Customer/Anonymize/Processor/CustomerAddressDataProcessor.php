@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Anonymize\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Anonymize\Processor;
 
 use Magento\Customer\Api\AddressRepositoryInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 
 final class CustomerAddressDataProcessor implements ProcessorInterface
 {

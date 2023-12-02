@@ -5,14 +5,14 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Export\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Export\Processor;
 
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Quote\Api\CartRepositoryInterface;
 use Magento\Quote\Model\Quote;
 use Magento\Quote\Model\Quote\Address;
-use Opengento\Gdpr\Model\Entity\DataCollectorInterface;
-use Opengento\Gdpr\Service\Export\Processor\AbstractDataProcessor;
+use HenriqueAmrl\Lgpd\Model\Entity\DataCollectorInterface;
+use HenriqueAmrl\Lgpd\Service\Export\Processor\AbstractDataProcessor;
 
 final class QuoteDataProcessor extends AbstractDataProcessor
 {

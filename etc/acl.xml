@@ -12,8 +12,8 @@
                 <resource id="Magento_Customer::customer">
                     <resource id="Magento_Customer::manage">
                         <resource id="Magento_Customer::actions">
-                            <resource id="Opengento_Gdpr::customer_erase" title="GDPR Compliance Erase Customer" translate="title" sortOrder="15"/>
-                            <resource id="Opengento_Gdpr::customer_export" title="GDPR Compliance Export Customer" translate="title" sortOrder="40"/>
+                            <resource id="HenriqueAmrl_Lgpd::customer_erase" title="LGPD Compliance Erase Customer" translate="title" sortOrder="15"/>
+                            <resource id="HenriqueAmrl_Lgpd::customer_export" title="LGPD Compliance Export Customer" translate="title" sortOrder="40"/>
                         </resource>
                     </resource>
                 </resource>
@@ -21,23 +21,23 @@
                     <resource id="Magento_Sales::sales_operation">
                         <resource id="Magento_Sales::sales_order">
                             <resource id="Magento_Sales::actions">
-                                <resource id="Opengento_Gdpr::order_erase" title="GDPR Compliance Erase Guest Order" translate="title" sortOrder="160"/>
-                                <resource id="Opengento_Gdpr::order_export" title="GDPR Compliance Export Guest Order" translate="title" sortOrder="170"/>
+                                <resource id="HenriqueAmrl_Lgpd::order_erase" title="LGPD Compliance Erase Guest Order" translate="title" sortOrder="160"/>
+                                <resource id="HenriqueAmrl_Lgpd::order_export" title="LGPD Compliance Export Guest Order" translate="title" sortOrder="170"/>
                             </resource>
                         </resource>
                     </resource>
                 </resource>
                 <resource id="Magento_Backend::stores">
-                    <resource id="Opengento_Gdpr::gdpr" title="GDPR" translate="title" sortOrder="100">
-                        <resource id="Opengento_Gdpr::gdpr_actions" title="GDPR Actions" translate="title" sortOrder="10">
-                            <resource id="Opengento_Gdpr::gdpr_actions_execute" title="Execute Actions" translate="title" sortOrder="10"/>
-                            <resource id="Opengento_Gdpr::gdpr_actions_edit" title="Edit Actions" translate="title" sortOrder="20"/>
-                            <resource id="Opengento_Gdpr::gdpr_actions_delete" title="Delete Actions" translate="title" sortOrder="30"/>
+                    <resource id="HenriqueAmrl_Lgpd::lgpd" title="LGPD" translate="title" sortOrder="100">
+                        <resource id="HenriqueAmrl_Lgpd::lgpd_actions" title="LGPD Actions" translate="title" sortOrder="10">
+                            <resource id="HenriqueAmrl_Lgpd::lgpd_actions_execute" title="Execute Actions" translate="title" sortOrder="10"/>
+                            <resource id="HenriqueAmrl_Lgpd::lgpd_actions_edit" title="Edit Actions" translate="title" sortOrder="20"/>
+                            <resource id="HenriqueAmrl_Lgpd::lgpd_actions_delete" title="Delete Actions" translate="title" sortOrder="30"/>
                         </resource>
                     </resource>
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Opengento_Gdpr::config" title="GDPR Compliance Section" translate="title" sortOrder="60"/>
+                            <resource id="HenriqueAmrl_Lgpd::config" title="LGPD Compliance Section" translate="title" sortOrder="60"/>
                         </resource>
                     </resource>
                 </resource>

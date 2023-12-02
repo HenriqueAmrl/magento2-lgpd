@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use DateTime;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Api\Data\ActionEntityInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterfaceFactory;
 
 /**
  * @api

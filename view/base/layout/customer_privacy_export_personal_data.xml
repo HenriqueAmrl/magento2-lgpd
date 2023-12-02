@@ -9,12 +9,12 @@
     <update handle="customer_privacy_export_personal_data_renderers"/>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <css src="Opengento_Gdpr::css/export.css"/>
+        <css src="HenriqueAmrl_Lgpd::css/export.css"/>
         <title>My Personal Data</title>
     </head>
     <body>
         <referenceContainer name="main">
-            <block name="main.content.customer.privacy.export.personal.data" template="Opengento_Gdpr::export/result.phtml" cacheable="false"/>
+            <block name="main.content.customer.privacy.export.personal.data" template="HenriqueAmrl_Lgpd::export/result.phtml" cacheable="false"/>
         </referenceContainer>
     </body>
 </page>

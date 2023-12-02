@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Guest;
+namespace HenriqueAmrl\Lgpd\Controller\Guest;
 
 use Exception;
 use Magento\Framework\App\Action\HttpGetActionInterface;
@@ -21,9 +21,9 @@ use Magento\Framework\Phrase;
 use Magento\Framework\Registry;
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Controller\AbstractController\OrderLoaderInterface;
-use Opengento\Gdpr\Api\ExportEntityRepositoryInterface;
-use Opengento\Gdpr\Controller\AbstractGuest;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Api\ExportEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Controller\AbstractGuest;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 class Download extends AbstractGuest implements HttpGetActionInterface
 {

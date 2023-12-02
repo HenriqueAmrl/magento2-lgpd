@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Export\Renderer\HtmlRenderer;
+namespace HenriqueAmrl\Lgpd\Service\Export\Renderer\HtmlRenderer;
 
 use LogicException;
 use Magento\Framework\View\Layout\BuilderFactory;

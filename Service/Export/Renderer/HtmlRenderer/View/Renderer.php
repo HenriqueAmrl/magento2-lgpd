@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Export\Renderer\HtmlRenderer\View;
+namespace HenriqueAmrl\Lgpd\Service\Export\Renderer\HtmlRenderer\View;
 
 use Magento\Framework\View\Asset\AssetInterface;
 use Magento\Framework\View\Asset\File;

@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action;
+namespace HenriqueAmrl\Lgpd\Model\Action;
 
 use InvalidArgumentException;
 use Magento\Framework\ObjectManagerInterface;
-use Opengento\Gdpr\Api\ActionInterface;
+use HenriqueAmrl\Lgpd\Api\ActionInterface;
 use function sprintf;
 
 /**

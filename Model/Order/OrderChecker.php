@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order;
+namespace HenriqueAmrl\Lgpd\Model\Order;
 
 use Magento\Sales\Api\OrderRepositoryInterface;
-use Opengento\Gdpr\Model\Config;
-use Opengento\Gdpr\Model\Entity\EntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Model\Config;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityCheckerInterface;
 use function in_array;
 
 final class OrderChecker implements EntityCheckerInterface

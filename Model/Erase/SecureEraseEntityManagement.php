@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Erase;
+namespace HenriqueAmrl\Lgpd\Model\Erase;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Api\EraseEntityCheckerInterface;
-use Opengento\Gdpr\Api\EraseEntityManagementInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityManagementInterface;
 
 final class SecureEraseEntityManagement implements EraseEntityManagementInterface
 {

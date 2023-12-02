@@ -6,73 +6,73 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <virtualType name="Opengento\Gdpr\Model\Action\ExportCreateAction">
+    <virtualType name="HenriqueAmrl\Lgpd\Model\Action\ExportCreateAction">
         <arguments>
             <argument name="actions" xsi:type="array">
-                <item name="action" xsi:type="object">Opengento\Gdpr\Model\Action\Export\CreateAction</item>
-                <item name="notifier" xsi:type="object">Opengento\Gdpr\Model\Action\Export\CreateNotifier</item>
+                <item name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\Export\CreateAction</item>
+                <item name="notifier" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\Export\CreateNotifier</item>
             </argument>
         </arguments>
     </virtualType>
-    <virtualType name="Opengento\Gdpr\Model\Action\ExportExecuteAction">
+    <virtualType name="HenriqueAmrl\Lgpd\Model\Action\ExportExecuteAction">
         <arguments>
             <argument name="actions" xsi:type="array">
-                <item name="action" xsi:type="object">Opengento\Gdpr\Model\Action\Export\ExportAction</item>
-                <item name="notifier" xsi:type="object">Opengento\Gdpr\Model\Action\Export\ExportNotifier</item>
+                <item name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\Export\ExportAction</item>
+                <item name="notifier" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\Export\ExportNotifier</item>
             </argument>
         </arguments>
     </virtualType>
-    <virtualType name="Opengento\Gdpr\Model\Action\ExportCreateOrExecuteAction">
+    <virtualType name="HenriqueAmrl\Lgpd\Model\Action\ExportCreateOrExecuteAction">
         <arguments>
             <argument name="actions" xsi:type="array">
-                <item name="action" xsi:type="object">Opengento\Gdpr\Model\Action\Export\CreateOrExportAction</item>
-                <item name="notifier" xsi:type="object">Opengento\Gdpr\Model\Action\Export\ExportNotifier</item>
+                <item name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\Export\CreateOrExportAction</item>
+                <item name="notifier" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\Export\ExportNotifier</item>
             </argument>
         </arguments>
     </virtualType>
-    <virtualType name="Opengento\Gdpr\Model\Action\PerformedBy\FrontUser" type="Opengento\Gdpr\Model\Action\PerformedBy\NotEmptyStrategy">
+    <virtualType name="HenriqueAmrl\Lgpd\Model\Action\PerformedBy\FrontUser" type="HenriqueAmrl\Lgpd\Model\Action\PerformedBy\NotEmptyStrategy">
         <arguments>
             <argument name="performedByList" xsi:type="array">
-                <item name="guest" xsi:type="object">Opengento\Gdpr\Model\Action\PerformedBy\Guest</item>
-                <item name="customer" xsi:type="object">Opengento\Gdpr\Model\Action\PerformedBy\Customer</item>
+                <item name="guest" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\PerformedBy\Guest</item>
+                <item name="customer" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\PerformedBy\Customer</item>
             </argument>
         </arguments>
     </virtualType>
-    <preference for="Opengento\Gdpr\Model\Action\PerformedByInterface" type="Opengento\Gdpr\Model\Action\PerformedBy\FrontUser"/>
-    <preference for="Opengento\Gdpr\Api\EraseEntityManagementInterface" type="Opengento\Gdpr\Model\Erase\SecureEraseEntityManagement"/>
-    <type name="Opengento\Gdpr\Controller\AbstractGuest">
+    <preference for="HenriqueAmrl\Lgpd\Model\Action\PerformedByInterface" type="HenriqueAmrl\Lgpd\Model\Action\PerformedBy\FrontUser"/>
+    <preference for="HenriqueAmrl\Lgpd\Api\EraseEntityManagementInterface" type="HenriqueAmrl\Lgpd\Model\Erase\SecureEraseEntityManagement"/>
+    <type name="HenriqueAmrl\Lgpd\Controller\AbstractGuest">
         <arguments>
             <argument name="orderLoader" xsi:type="object">Magento\Sales\Controller\Guest\OrderLoader</argument>
         </arguments>
     </type>
-    <type name="Opengento\Gdpr\Controller\Privacy\ErasePost">
+    <type name="HenriqueAmrl\Lgpd\Controller\Privacy\ErasePost">
         <arguments>
-            <argument name="action" xsi:type="object">Opengento\Gdpr\Model\Action\EraseCreateAction</argument>
+            <argument name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\EraseCreateAction</argument>
         </arguments>
     </type>
-    <type name="Opengento\Gdpr\Controller\Guest\Erase">
+    <type name="HenriqueAmrl\Lgpd\Controller\Guest\Erase">
         <arguments>
-            <argument name="action" xsi:type="object">Opengento\Gdpr\Model\Action\EraseCreateAction</argument>
+            <argument name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\EraseCreateAction</argument>
         </arguments>
     </type>
-    <type name="Opengento\Gdpr\Controller\Privacy\UndoErase">
+    <type name="HenriqueAmrl\Lgpd\Controller\Privacy\UndoErase">
         <arguments>
-            <argument name="action" xsi:type="object">Opengento\Gdpr\Model\Action\EraseCancelAction</argument>
+            <argument name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\EraseCancelAction</argument>
         </arguments>
     </type>
-    <type name="Opengento\Gdpr\Controller\Guest\UndoErase">
+    <type name="HenriqueAmrl\Lgpd\Controller\Guest\UndoErase">
         <arguments>
-            <argument name="action" xsi:type="object">Opengento\Gdpr\Model\Action\EraseCancelAction</argument>
+            <argument name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\EraseCancelAction</argument>
         </arguments>
     </type>
-    <type name="Opengento\Gdpr\Controller\Privacy\Export">
+    <type name="HenriqueAmrl\Lgpd\Controller\Privacy\Export">
         <arguments>
-            <argument name="action" xsi:type="object">Opengento\Gdpr\Model\Action\ExportCreateAction</argument>
+            <argument name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\ExportCreateAction</argument>
         </arguments>
     </type>
-    <type name="Opengento\Gdpr\Controller\Guest\Export">
+    <type name="HenriqueAmrl\Lgpd\Controller\Guest\Export">
         <arguments>
-            <argument name="action" xsi:type="object">Opengento\Gdpr\Model\Action\ExportCreateAction</argument>
+            <argument name="action" xsi:type="object">HenriqueAmrl\Lgpd\Model\Action\ExportCreateAction</argument>
         </arguments>
     </type>
 </config>

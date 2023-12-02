@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order\Anonymize\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Order\Anonymize\Processor;
 
 use DateTime;
 use Exception;
@@ -13,9 +13,9 @@ use Magento\Sales\Api\Data\OrderAddressInterface;
 use Magento\Sales\Api\OrderAddressRepositoryInterface;
 use Magento\Sales\Api\OrderRepositoryInterface;
 use Magento\Sales\Model\Order;
-use Opengento\Gdpr\Api\EraseSalesInformationInterface;
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Api\EraseSalesInformationInterface;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 
 final class OrderDataProcessor implements ProcessorInterface
 {

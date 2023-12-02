@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Erase;
+namespace HenriqueAmrl\Lgpd\Model\Erase;
 
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
 
 /**
  * @api

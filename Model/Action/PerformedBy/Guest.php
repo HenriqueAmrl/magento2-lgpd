@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action\PerformedBy;
+namespace HenriqueAmrl\Lgpd\Model\Action\PerformedBy;
 
 use Magento\Framework\Registry;
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Model\Order;
-use Opengento\Gdpr\Model\Action\PerformedByInterface;
+use HenriqueAmrl\Lgpd\Model\Action\PerformedByInterface;
 
 final class Guest implements PerformedByInterface
 {

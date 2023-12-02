@@ -9,7 +9,7 @@
     <update handle="formkey"/>
     <body>
         <referenceContainer name="content">
-            <uiComponent name="gdpr_action_listing"/>
+            <uiComponent name="lgpd_action_listing"/>
         </referenceContainer>
     </body>
 </page>

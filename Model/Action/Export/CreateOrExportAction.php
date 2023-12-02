@@ -5,16 +5,16 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action\Export;
+namespace HenriqueAmrl\Lgpd\Model\Action\Export;
 
 use Magento\Framework\Exception\InputException;
-use Opengento\Gdpr\Api\Data\ActionContextInterface;
-use Opengento\Gdpr\Api\Data\ActionResultInterface;
-use Opengento\Gdpr\Model\Action\AbstractAction;
-use Opengento\Gdpr\Model\Action\ArgumentReader;
-use Opengento\Gdpr\Model\Action\Export\ArgumentReader as ExportArgumentReader;
-use Opengento\Gdpr\Model\Action\ResultBuilder;
-use Opengento\Gdpr\Model\Export\ExportEntityData;
+use HenriqueAmrl\Lgpd\Api\Data\ActionContextInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionResultInterface;
+use HenriqueAmrl\Lgpd\Model\Action\AbstractAction;
+use HenriqueAmrl\Lgpd\Model\Action\ArgumentReader;
+use HenriqueAmrl\Lgpd\Model\Action\Export\ArgumentReader as ExportArgumentReader;
+use HenriqueAmrl\Lgpd\Model\Action\ResultBuilder;
+use HenriqueAmrl\Lgpd\Model\Export\ExportEntityData;
 use function array_reduce;
 
 final class CreateOrExportAction extends AbstractAction

@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Export\Processor;
+namespace HenriqueAmrl\Lgpd\Service\Export\Processor;
 
-use Opengento\Gdpr\Service\Export\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Export\ProcessorInterface;
 use function array_reduce;
 
 final class CompositeProcessor implements ProcessorInterface

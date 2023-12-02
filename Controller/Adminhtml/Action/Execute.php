@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Adminhtml\Action;
+namespace HenriqueAmrl\Lgpd\Controller\Adminhtml\Action;
 
 use Exception;
 use Magento\Backend\App\Action;
@@ -16,14 +16,14 @@ use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Exception\AbstractAggregateException;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\Data\ActionResultInterface;
-use Opengento\Gdpr\Model\Action\ActionFactory;
-use Opengento\Gdpr\Model\Action\ContextBuilder;
-use Opengento\Gdpr\Model\Config\Source\ActionStates;
+use HenriqueAmrl\Lgpd\Api\Data\ActionResultInterface;
+use HenriqueAmrl\Lgpd\Model\Action\ActionFactory;
+use HenriqueAmrl\Lgpd\Model\Action\ContextBuilder;
+use HenriqueAmrl\Lgpd\Model\Config\Source\ActionStates;
 
 class Execute extends Action implements HttpPostActionInterface
 {
-    public const ADMIN_RESOURCE = 'Opengento_Gdpr::gdpr_actions_execute';
+    public const ADMIN_RESOURCE = 'HenriqueAmrl_Lgpd::lgpd_actions_execute';
 
     /**
      * @var ActionFactory

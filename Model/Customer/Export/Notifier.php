@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Export;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Export;
 
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Model\Customer\Notifier\SenderInterface;
-use Opengento\Gdpr\Model\Export\NotifierInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Model\Customer\Notifier\SenderInterface;
+use HenriqueAmrl\Lgpd\Model\Export\NotifierInterface;
 use Psr\Log\LoggerInterface;
 
 final class Notifier implements NotifierInterface

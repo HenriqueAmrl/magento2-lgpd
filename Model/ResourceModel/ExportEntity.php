@@ -5,19 +5,19 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\ResourceModel;
+namespace HenriqueAmrl\Lgpd\Model\ResourceModel;
 
 use Magento\Framework\DB\Select;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Model\AbstractModel;
 use Magento\Framework\Model\ResourceModel\Db\VersionControl\AbstractDb;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
 use function is_array;
 use function sprintf;
 
 class ExportEntity extends AbstractDb
 {
-    public const TABLE = 'opengento_gdpr_export_entity';
+    public const TABLE = 'henriqueamrl_lgpd_export_entity';
 
     protected function _construct(): void
     {

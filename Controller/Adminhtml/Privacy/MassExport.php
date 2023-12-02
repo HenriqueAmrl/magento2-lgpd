@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Adminhtml\Privacy;
+namespace HenriqueAmrl\Lgpd\Controller\Adminhtml\Privacy;
 
 use Exception;
 use Magento\Backend\App\Action\Context;
@@ -19,16 +19,16 @@ use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Phrase;
 use Magento\Ui\Component\MassAction\Filter;
-use Opengento\Gdpr\Api\ActionInterface;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Model\Action\ArgumentReader;
-use Opengento\Gdpr\Model\Action\ContextBuilder;
-use Opengento\Gdpr\Model\Action\Export\ArgumentReader as ExportArgumentReader;
-use Opengento\Gdpr\Model\Archive\ArchiveManager;
+use HenriqueAmrl\Lgpd\Api\ActionInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Model\Action\ArgumentReader;
+use HenriqueAmrl\Lgpd\Model\Action\ContextBuilder;
+use HenriqueAmrl\Lgpd\Model\Action\Export\ArgumentReader as ExportArgumentReader;
+use HenriqueAmrl\Lgpd\Model\Archive\ArchiveManager;
 
 class MassExport extends AbstractMassAction
 {
-    public const ADMIN_RESOURCE = 'Opengento_Gdpr::customer_export';
+    public const ADMIN_RESOURCE = 'HenriqueAmrl_Lgpd::customer_export';
 
     /**
      * @var FileFactory

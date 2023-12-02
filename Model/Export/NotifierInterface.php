@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Export;
+namespace HenriqueAmrl\Lgpd\Model\Export;
 
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
 
 /**
  * @api

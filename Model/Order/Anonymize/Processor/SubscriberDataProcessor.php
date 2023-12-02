@@ -5,15 +5,15 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order\Anonymize\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Order\Anonymize\Processor;
 
 use Exception;
 use Magento\Newsletter\Model\ResourceModel\Subscriber as ResourceSubscriber;
 use Magento\Sales\Api\OrderRepositoryInterface;
-use Opengento\Gdpr\Model\Newsletter\Subscriber;
-use Opengento\Gdpr\Model\Newsletter\SubscriberFactory;
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Model\Newsletter\Subscriber;
+use HenriqueAmrl\Lgpd\Model\Newsletter\SubscriberFactory;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 
 final class SubscriberDataProcessor implements ProcessorInterface
 {

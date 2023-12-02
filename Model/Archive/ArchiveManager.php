@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Archive;
+namespace HenriqueAmrl\Lgpd\Model\Archive;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Archive\ArchiveInterface;

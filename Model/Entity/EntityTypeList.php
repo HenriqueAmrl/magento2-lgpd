@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Entity;
+namespace HenriqueAmrl\Lgpd\Model\Entity;
 
 use function array_keys;
 use function array_merge;

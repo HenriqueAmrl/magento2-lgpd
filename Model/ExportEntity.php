@@ -5,17 +5,17 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Magento\Framework\Model\AbstractExtensibleModel;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Model\ResourceModel\ExportEntity as EraseEntityResource;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ExportEntity as EraseEntityResource;
 
 class ExportEntity extends AbstractExtensibleModel implements ExportEntityInterface
 {
     protected function _construct(): void
     {
-        $this->_eventPrefix = 'opengento_gdpr_export_entity';
+        $this->_eventPrefix = 'henriqueamrl_lgpd_export_entity';
         $this->_eventObject = 'export_entity';
         $this->_init(EraseEntityResource::class);
     }

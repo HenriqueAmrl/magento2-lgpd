@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action;
+namespace HenriqueAmrl\Lgpd\Model\Action;
 
 use DateTime;
-use Opengento\Gdpr\Api\ActionInterface;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Api\Data\ActionResultInterface;
+use HenriqueAmrl\Lgpd\Api\ActionInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionResultInterface;
 
 abstract class AbstractAction implements ActionInterface
 {

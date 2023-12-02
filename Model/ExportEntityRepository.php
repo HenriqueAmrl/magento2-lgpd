@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Exception;
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;
@@ -17,14 +17,14 @@ use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Filesystem;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Api\Data\ExportEntityInterfaceFactory;
-use Opengento\Gdpr\Api\Data\ExportEntitySearchResultsInterface;
-use Opengento\Gdpr\Api\Data\ExportEntitySearchResultsInterfaceFactory;
-use Opengento\Gdpr\Api\ExportEntityRepositoryInterface;
-use Opengento\Gdpr\Model\ResourceModel\ExportEntity as ExportEntityResource;
-use Opengento\Gdpr\Model\ResourceModel\ExportEntity\Collection;
-use Opengento\Gdpr\Model\ResourceModel\ExportEntity\CollectionFactory;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntitySearchResultsInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntitySearchResultsInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\ExportEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ExportEntity as ExportEntityResource;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ExportEntity\Collection;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ExportEntity\CollectionFactory;
 
 final class ExportEntityRepository implements ExportEntityRepositoryInterface
 {

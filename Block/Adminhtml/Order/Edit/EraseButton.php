@@ -5,14 +5,14 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Block\Adminhtml\Order\Edit;
+namespace HenriqueAmrl\Lgpd\Block\Adminhtml\Order\Edit;
 
 use Magento\Backend\Block\AbstractBlock;
 use Magento\Backend\Block\Context;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Phrase;
 use Magento\Sales\Block\Adminhtml\Order\View;
-use Opengento\Gdpr\Api\EraseEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityCheckerInterface;
 
 class EraseButton extends AbstractBlock
 {
@@ -39,14 +39,14 @@ class EraseButton extends AbstractBlock
         $orderView = $this->getLayout()->getBlock('sales_order_edit');
         $orderId = (int) $orderView->getOrderId();
 
-        if ($this->_authorization->isAllowed('Opengento_Gdpr::order_erase') &&
+        if ($this->_authorization->isAllowed('HenriqueAmrl_Lgpd::order_erase') &&
             $this->eraseEntityChecker->canCreate($orderId, 'order')
         ) {
             $confirmMessage = new Phrase('Are you sure you want to do this?');
             $eraseUrl = $this->getUrl('sales/guest/erase', ['id' => $orderId]);
 
             $orderView->addButton(
-                'opengento-gdpr-order-view-erase-button',
+                'henriqueamrl-lgpd-order-view-erase-button',
                 [
                     'label' => new Phrase('Erase Personal Data'),
                     'class' => 'action-secondary erase',

@@ -5,10 +5,10 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action\Erase;
+namespace HenriqueAmrl\Lgpd\Model\Action\Erase;
 
-use Opengento\Gdpr\Api\Data\ActionContextInterface;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionContextInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
 
 final class ArgumentReader
 {

@@ -5,14 +5,14 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Erase;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Erase;
 
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Model\Customer\Notifier\SenderInterface;
-use Opengento\Gdpr\Model\Customer\OrigDataRegistry;
-use Opengento\Gdpr\Model\Erase\NotifierInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Model\Customer\Notifier\SenderInterface;
+use HenriqueAmrl\Lgpd\Model\Customer\OrigDataRegistry;
+use HenriqueAmrl\Lgpd\Model\Erase\NotifierInterface;
 use Psr\Log\LoggerInterface;
 
 final class Notifier implements NotifierInterface

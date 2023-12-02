@@ -5,15 +5,15 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Erase;
+namespace HenriqueAmrl\Lgpd\Model\Erase;
 
 use Generator;
 use Magento\Framework\Api\Filter;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Api\EraseEntityManagementInterface;
-use Opengento\Gdpr\Model\Entity\SourceProvider\ModifierFactory;
-use Opengento\Gdpr\Model\Entity\SourceProviderFactory;
+use HenriqueAmrl\Lgpd\Api\EraseEntityManagementInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\SourceProvider\ModifierFactory;
+use HenriqueAmrl\Lgpd\Model\Entity\SourceProviderFactory;
 
 final class EraseEntityScheduler
 {

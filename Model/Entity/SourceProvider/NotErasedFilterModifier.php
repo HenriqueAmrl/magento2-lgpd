@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Entity\SourceProvider;
+namespace HenriqueAmrl\Lgpd\Model\Entity\SourceProvider;
 
 use Magento\Framework\Api\Filter;
 use Magento\Framework\Data\Collection;
@@ -42,7 +42,7 @@ final class NotErasedFilterModifier implements ModifierInterface
             $connection = $collection->getConnection();
             $select = $collection->getSelect();
             $select->joinLeft(
-                ['ogee' => $connection->getTableName('opengento_gdpr_erase_entity')],
+                ['ogee' => $connection->getTableName('henriqueamrl_lgpd_erase_entity')],
                 sprintf(self::JOIN_ON, $this->mainTableAlias, $this->entityPrimaryField, $this->entityType),
                 ['']
             );

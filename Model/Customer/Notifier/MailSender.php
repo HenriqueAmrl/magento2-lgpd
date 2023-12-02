@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Notifier;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Notifier;
 
 use Magento\Customer\Api\Data\CustomerInterface;
 use Magento\Customer\Helper\View;
@@ -15,7 +15,7 @@ use Magento\Framework\Exception\MailException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Mail\Template\TransportBuilder;
 use Magento\Store\Model\StoreManagerInterface;
-use Opengento\Gdpr\Model\Notifier\AbstractMailSender;
+use HenriqueAmrl\Lgpd\Model\Notifier\AbstractMailSender;
 
 final class MailSender extends AbstractMailSender implements SenderInterface
 {

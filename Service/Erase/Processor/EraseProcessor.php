@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Erase\Processor;
+namespace HenriqueAmrl\Lgpd\Service\Erase\Processor;
 
-use Opengento\Gdpr\Model\Config\Source\EraseComponents;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorResolverInterface;
+use HenriqueAmrl\Lgpd\Model\Config\Source\EraseComponents;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorResolverInterface;
 use function array_column;
 
 final class EraseProcessor implements ProcessorInterface

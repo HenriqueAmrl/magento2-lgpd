@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Anonymize\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Anonymize\Processor;
 
 use DateTime;
 use Magento\Customer\Api\CustomerRepositoryInterface;
@@ -23,9 +23,9 @@ use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Api\Data\OrderSearchResultInterface;
 use Magento\Sales\Api\OrderRepositoryInterface;
 use Magento\Store\Model\ScopeInterface;
-use Opengento\Gdpr\Model\Customer\OrigDataRegistry;
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Model\Customer\OrigDataRegistry;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 use function mt_rand;
 use function sha1;
 use function uniqid;
@@ -33,7 +33,7 @@ use const PHP_INT_MAX;
 
 final class CustomerDataProcessor implements ProcessorInterface
 {
-    private const CONFIG_PATH_ERASURE_REMOVE_CUSTOMER = 'gdpr/erasure/remove_customer';
+    private const CONFIG_PATH_ERASURE_REMOVE_CUSTOMER = 'lgpd/erasure/remove_customer';
 
     private AnonymizerInterface $anonymizer;
 

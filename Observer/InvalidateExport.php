@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Observer;
+namespace HenriqueAmrl\Lgpd\Observer;
 
 use Exception;
 use Magento\Framework\Api\Filter;
@@ -16,11 +16,11 @@ use Magento\Framework\DataObject;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Api\Data\ExportEntitySearchResultsInterface;
-use Opengento\Gdpr\Api\ExportEntityManagementInterface;
-use Opengento\Gdpr\Api\ExportEntityRepositoryInterface;
-use Opengento\Gdpr\Model\Entity\EntityTypeResolver;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntitySearchResultsInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityManagementInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityTypeResolver;
 use Psr\Log\LoggerInterface;
 
 final class InvalidateExport implements ObserverInterface

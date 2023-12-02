@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Magento\Framework\Exception\NoSuchEntityException;
-use Opengento\Gdpr\Api\ExportEntityCheckerInterface;
-use Opengento\Gdpr\Api\ExportEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityRepositoryInterface;
 
 final class ExportEntityChecker implements ExportEntityCheckerInterface
 {

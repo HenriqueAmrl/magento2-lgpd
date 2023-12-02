@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\ResourceModel\ActionEntity;
+namespace HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Model\ActionEntity;
-use Opengento\Gdpr\Model\ResourceModel\ActionEntity as ActionEntityResourceModel;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Model\ActionEntity;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity as ActionEntityResourceModel;
 
 class Collection extends AbstractCollection
 {

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action;
+namespace HenriqueAmrl\Lgpd\Model\Action;
 
 /**
  * @api

@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Api;
+namespace HenriqueAmrl\Lgpd\Api;
 
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Api\Data\ActionContextInterface;
-use Opengento\Gdpr\Api\Data\ActionResultInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionContextInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionResultInterface;
 
 /**
  * @api

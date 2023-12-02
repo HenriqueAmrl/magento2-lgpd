@@ -5,20 +5,20 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use DateTime;
 use Exception;
 use Magento\Framework\Model\AbstractExtensibleModel;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Model\ResourceModel\ActionEntity as ActionEntityResource;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity as ActionEntityResource;
 use function is_string;
 
 class ActionEntity extends AbstractExtensibleModel implements ActionEntityInterface
 {
     protected function _construct(): void
     {
-        $this->_eventPrefix = 'opengento_gdpr_action_entity';
+        $this->_eventPrefix = 'henriqueamrl_lgpd_action_entity';
         $this->_eventObject = 'action_entity';
         $this->_init(ActionEntityResource::class);
     }

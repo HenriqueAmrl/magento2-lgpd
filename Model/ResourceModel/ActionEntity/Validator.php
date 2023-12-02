@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\ResourceModel\ActionEntity;
+namespace HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity;
 
 use Magento\Framework\Validator\AbstractValidator;
 use Magento\Framework\Validator\ValidatorInterface;

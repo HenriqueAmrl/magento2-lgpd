@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action;
+namespace HenriqueAmrl\Lgpd\Model\Action;
 
-use Opengento\Gdpr\Api\Data\ActionContextInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionContextInterface;
 
 final class ArgumentReader
 {

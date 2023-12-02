@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Exception;
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;
@@ -15,14 +15,14 @@ use Magento\Framework\Exception\CouldNotDeleteException;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\ActionEntityRepositoryInterface;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Api\Data\ActionEntityInterfaceFactory;
-use Opengento\Gdpr\Api\Data\ActionEntitySearchResultsInterface;
-use Opengento\Gdpr\Api\Data\ActionEntitySearchResultsInterfaceFactory;
-use Opengento\Gdpr\Model\ResourceModel\ActionEntity as ActionEntityResource;
-use Opengento\Gdpr\Model\ResourceModel\ActionEntity\Collection;
-use Opengento\Gdpr\Model\ResourceModel\ActionEntity\CollectionFactory;
+use HenriqueAmrl\Lgpd\Api\ActionEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntitySearchResultsInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntitySearchResultsInterfaceFactory;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity as ActionEntityResource;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity\Collection;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity\CollectionFactory;
 
 final class ActionEntityRepository implements ActionEntityRepositoryInterface
 {

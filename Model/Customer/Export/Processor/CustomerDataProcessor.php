@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Export\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Export\Processor;
 
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
-use Opengento\Gdpr\Model\Entity\DataCollectorInterface;
-use Opengento\Gdpr\Service\Export\Processor\AbstractDataProcessor;
+use HenriqueAmrl\Lgpd\Model\Entity\DataCollectorInterface;
+use HenriqueAmrl\Lgpd\Service\Export\Processor\AbstractDataProcessor;
 
 final class CustomerDataProcessor extends AbstractDataProcessor
 {

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Privacy;
+namespace HenriqueAmrl\Lgpd\Controller\Privacy;
 
 use Exception;
 use Magento\Customer\Model\Session;
@@ -20,9 +20,9 @@ use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Message\ManagerInterface;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\ExportEntityRepositoryInterface;
-use Opengento\Gdpr\Controller\AbstractPrivacy;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Api\ExportEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Controller\AbstractPrivacy;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 class Download extends AbstractPrivacy implements HttpGetActionInterface
 {

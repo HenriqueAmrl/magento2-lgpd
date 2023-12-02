@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order\Notifier;
+namespace HenriqueAmrl\Lgpd\Model\Order\Notifier;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Exception\LocalizedException;
@@ -13,7 +13,7 @@ use Magento\Framework\Exception\MailException;
 use Magento\Framework\Mail\Template\TransportBuilder;
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Store\Model\StoreManagerInterface;
-use Opengento\Gdpr\Model\Notifier\AbstractMailSender;
+use HenriqueAmrl\Lgpd\Model\Notifier\AbstractMailSender;
 use Psr\Log\LoggerInterface;
 
 final class MailSender extends AbstractMailSender implements SenderInterface
@@ -59,9 +59,9 @@ final class MailSender extends AbstractMailSender implements SenderInterface
 
         try {
             $this->sendMail($order->getCustomerEmail(), $order->getCustomerName(), $storeId, $vars);
-            $this->logger->debug(__('GDPR Email Success'));
+            $this->logger->debug(__('LGPD Email Success'));
         } catch (MailException $exc) {
-            $this->logger->error(__('GDPR Email Error: %1', $exc->getMessage()));
+            $this->logger->error(__('LGPD Email Error: %1', $exc->getMessage()));
         }
         
     }

@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\SourceProvider;
+namespace HenriqueAmrl\Lgpd\Model\Customer\SourceProvider;
 
 use Magento\Framework\Api\Filter;
 use Magento\Framework\Data\Collection;
-use Opengento\Gdpr\Model\Entity\SourceProvider\ModifierInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\SourceProvider\ModifierInterface;
 
 final class IdleFilterModifier implements ModifierInterface
 {

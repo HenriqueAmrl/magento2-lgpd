@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\ViewModel\Customer\Guest;
+namespace HenriqueAmrl\Lgpd\ViewModel\Customer\Guest;
 
 use Magento\Framework\Registry;
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 use Magento\Sales\Api\Data\OrderInterface;
-use Opengento\Gdpr\Api\EraseEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityCheckerInterface;
 
 final class EraseDataProvider implements ArgumentInterface
 {

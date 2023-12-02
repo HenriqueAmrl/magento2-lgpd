@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\ViewModel\Customer\Privacy;
+namespace HenriqueAmrl\Lgpd\ViewModel\Customer\Privacy;
 
 use Magento\Cms\Block\BlockByIdentifier;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -15,8 +15,8 @@ use Magento\Store\Model\ScopeInterface;
 
 final class EraseDataProvider implements ArgumentInterface
 {
-    private const CONFIG_PATH_ERASURE_INFORMATION_BLOCK = 'gdpr/erasure/block_id';
-    private const CONFIG_PATH_ANONYMIZE_INFORMATION_BLOCK = 'gdpr/anonymize/block_id';
+    private const CONFIG_PATH_ERASURE_INFORMATION_BLOCK = 'lgpd/erasure/block_id';
+    private const CONFIG_PATH_ANONYMIZE_INFORMATION_BLOCK = 'lgpd/anonymize/block_id';
 
     private ScopeConfigInterface $scopeConfig;
 

@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action\PerformedBy;
+namespace HenriqueAmrl\Lgpd\Model\Action\PerformedBy;
 
 use Magento\Customer\Api\Data\CustomerInterface;
 use Magento\Customer\Model\Session;
-use Opengento\Gdpr\Model\Action\PerformedByInterface;
+use HenriqueAmrl\Lgpd\Model\Action\PerformedByInterface;
 
 final class Customer implements PerformedByInterface
 {

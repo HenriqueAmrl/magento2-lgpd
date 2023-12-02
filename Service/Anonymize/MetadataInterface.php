@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Anonymize;
+namespace HenriqueAmrl\Lgpd\Service\Anonymize;
 
-use Opengento\Gdpr\Model\Entity\MetadataInterface as EntityMetadataInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\MetadataInterface as EntityMetadataInterface;
 
 /**
  * @api

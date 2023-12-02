@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer;
+namespace HenriqueAmrl\Lgpd\Model\Customer;
 
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Api\OrderRepositoryInterface;
-use Opengento\Gdpr\Model\Config;
-use Opengento\Gdpr\Model\Entity\EntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Model\Config;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityCheckerInterface;
 
 final class CustomerChecker implements EntityCheckerInterface
 {

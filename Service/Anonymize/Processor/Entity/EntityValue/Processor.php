@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Anonymize\Processor\Entity\EntityValue;
+namespace HenriqueAmrl\Lgpd\Service\Anonymize\Processor\Entity\EntityValue;
 
-use Opengento\Gdpr\Model\Entity\DocumentInterface;
-use Opengento\Gdpr\Model\Entity\EntityValueProcessorInterface;
-use Opengento\Gdpr\Model\Entity\MetadataInterface;
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\DocumentInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityValueProcessorInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\MetadataInterface;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
 use function in_array;
 
 final class Processor implements EntityValueProcessorInterface

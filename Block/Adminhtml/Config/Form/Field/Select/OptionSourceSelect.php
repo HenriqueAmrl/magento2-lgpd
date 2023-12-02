@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Block\Adminhtml\Config\Form\Field\Select;
+namespace HenriqueAmrl\Lgpd\Block\Adminhtml\Config\Form\Field\Select;
 
 use Magento\Framework\Data\OptionSourceInterface;
 use Magento\Framework\View\Element\Context;

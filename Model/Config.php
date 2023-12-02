@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Store\Model\ScopeInterface;
@@ -16,10 +16,10 @@ final class Config
     /**
      * Scope Config: Data Settings Paths
      */
-    public const CONFIG_PATH_GENERAL_ENABLED = 'gdpr/general/enabled';
-    public const CONFIG_PATH_ERASURE_ENABLED = 'gdpr/erasure/enabled';
-    public const CONFIG_PATH_ERASURE_ALLOWED_STATES = 'gdpr/erasure/allowed_states';
-    public const CONFIG_PATH_EXPORT_ENABLED = 'gdpr/export/enabled';
+    public const CONFIG_PATH_GENERAL_ENABLED = 'lgpd/general/enabled';
+    public const CONFIG_PATH_ERASURE_ENABLED = 'lgpd/erasure/enabled';
+    public const CONFIG_PATH_ERASURE_ALLOWED_STATES = 'lgpd/erasure/allowed_states';
+    public const CONFIG_PATH_EXPORT_ENABLED = 'lgpd/export/enabled';
 
     private ScopeConfigInterface $scopeConfig;
 

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use DateTime;
 use Exception;
@@ -14,17 +14,17 @@ use Magento\Framework\Exception\AlreadyExistsException;
 use Magento\Framework\Phrase;
 use Magento\Framework\Stdlib\DateTime as DateTimeFormat;
 use Magento\Store\Model\ScopeInterface;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Api\Data\ExportEntityInterfaceFactory;
-use Opengento\Gdpr\Api\ExportEntityCheckerInterface;
-use Opengento\Gdpr\Api\ExportEntityManagementInterface;
-use Opengento\Gdpr\Api\ExportEntityRepositoryInterface;
-use Opengento\Gdpr\Model\Export\ExportToFile;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\ExportEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityManagementInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Model\Export\ExportToFile;
 
 final class ExportEntityManagement implements ExportEntityManagementInterface
 {
-    private const CONFIG_PATH_EXPORT_FILE_NAME = 'gdpr/export/file_name';
-    private const CONFIG_PATH_EXPORT_LIFE_TIME = 'gdpr/export/life_time';
+    private const CONFIG_PATH_EXPORT_FILE_NAME = 'lgpd/export/file_name';
+    private const CONFIG_PATH_EXPORT_LIFE_TIME = 'lgpd/export/life_time';
 
     private ExportEntityInterfaceFactory $exportEntityFactory;
 

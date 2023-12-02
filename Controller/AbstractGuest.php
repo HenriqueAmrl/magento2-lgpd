@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller;
+namespace HenriqueAmrl\Lgpd\Controller;
 
 use Magento\Framework\App\RequestInterface;
 use Magento\Framework\Controller\ResultFactory;
@@ -14,7 +14,7 @@ use Magento\Framework\Message\ManagerInterface;
 use Magento\Framework\Registry;
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Controller\AbstractController\OrderLoaderInterface;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 abstract class AbstractGuest extends AbstractAction
 {

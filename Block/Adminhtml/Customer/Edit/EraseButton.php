@@ -5,15 +5,15 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Block\Adminhtml\Customer\Edit;
+namespace HenriqueAmrl\Lgpd\Block\Adminhtml\Customer\Edit;
 
 use Magento\Backend\Block\Widget\Context;
 use Magento\Customer\Block\Adminhtml\Edit\GenericButton;
 use Magento\Framework\Phrase;
 use Magento\Framework\Registry;
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
-use Opengento\Gdpr\Api\EraseEntityCheckerInterface;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Api\EraseEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 final class EraseButton extends GenericButton implements ButtonProviderInterface
 {
@@ -44,11 +44,11 @@ final class EraseButton extends GenericButton implements ButtonProviderInterface
             $buttonData = [
                 'label' => new Phrase('Erase Personal Data'),
                 'class' => 'erase',
-                'id' => 'opengento-gdpr-customer-edit-erase-button',
+                'id' => 'henriqueamrl-lgpd-customer-edit-erase-button',
                 'on_click' => 'deleteConfirm("' . new Phrase('Are you sure you want to do this?') . '", '
                     . '"' . $this->getUrl('customer/privacy/erase', ['id' => $customerId]) . '", {"data": {}})',
                 'sort_order' => 15,
-                'aclResource' => 'Opengento_Gdpr::customer_erase',
+                'aclResource' => 'HenriqueAmrl_Lgpd::customer_erase',
             ];
         }
 

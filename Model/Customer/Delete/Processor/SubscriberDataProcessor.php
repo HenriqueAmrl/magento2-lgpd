@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Delete\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Delete\Processor;
 
 use Exception;
 use Magento\Newsletter\Model\ResourceModel\Subscriber as ResourceSubscriber;
 use Magento\Newsletter\Model\Subscriber;
 use Magento\Newsletter\Model\SubscriberFactory;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 
 final class SubscriberDataProcessor implements ProcessorInterface
 {

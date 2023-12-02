@@ -5,17 +5,17 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Magento\Framework\Model\AbstractExtensibleModel;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Model\ResourceModel\EraseEntity as EraseEntityResource;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\EraseEntity as EraseEntityResource;
 
 class EraseEntity extends AbstractExtensibleModel implements EraseEntityInterface
 {
     protected function _construct(): void
     {
-        $this->_eventPrefix = 'opengento_gdpr_erase_entity';
+        $this->_eventPrefix = 'henriqueamrl_lgpd_erase_entity';
         $this->_eventObject = 'erase_entity';
         $this->_init(EraseEntityResource::class);
     }

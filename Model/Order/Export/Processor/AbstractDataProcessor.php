@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order\Export\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Order\Export\Processor;
 
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Api\OrderRepositoryInterface;
-use Opengento\Gdpr\Model\Entity\DataCollectorInterface;
-use Opengento\Gdpr\Service\Export\Processor\AbstractDataProcessor as AbstractExportDataProcessor;
+use HenriqueAmrl\Lgpd\Model\Entity\DataCollectorInterface;
+use HenriqueAmrl\Lgpd\Service\Export\Processor\AbstractDataProcessor as AbstractExportDataProcessor;
 
 abstract class AbstractDataProcessor extends AbstractExportDataProcessor
 {

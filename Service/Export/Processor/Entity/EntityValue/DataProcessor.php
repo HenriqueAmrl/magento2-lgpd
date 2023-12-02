@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Export\Processor\Entity\EntityValue;
+namespace HenriqueAmrl\Lgpd\Service\Export\Processor\Entity\EntityValue;
 
-use Opengento\Gdpr\Model\Entity\DocumentInterface;
-use Opengento\Gdpr\Model\Entity\EntityValueProcessorInterface;
-use Opengento\Gdpr\Model\Entity\MetadataInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\DocumentInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityValueProcessorInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\MetadataInterface;
 use function in_array;
 
 final class DataProcessor implements EntityValueProcessorInterface

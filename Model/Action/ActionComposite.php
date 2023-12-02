@@ -5,16 +5,16 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action;
+namespace HenriqueAmrl\Lgpd\Model\Action;
 
 use DateTime;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Api\ActionEntityRepositoryInterface;
-use Opengento\Gdpr\Api\ActionInterface;
-use Opengento\Gdpr\Api\Data\ActionContextInterface;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Api\Data\ActionResultInterface;
-use Opengento\Gdpr\Model\ActionEntityBuilder;
+use HenriqueAmrl\Lgpd\Api\ActionEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Api\ActionInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionContextInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionResultInterface;
+use HenriqueAmrl\Lgpd\Model\ActionEntityBuilder;
 use function array_merge;
 
 final class ActionComposite implements ActionInterface

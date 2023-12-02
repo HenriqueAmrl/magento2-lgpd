@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Block\Adminhtml\Order\Edit;
+namespace HenriqueAmrl\Lgpd\Block\Adminhtml\Order\Edit;
 
 use Magento\Backend\Block\AbstractBlock;
 use Magento\Framework\Exception\LocalizedException;
@@ -26,9 +26,9 @@ class ExportButton extends AbstractBlock
         $orderView = $this->getLayout()->getBlock('sales_order_edit');
         $orderId = (int) $orderView->getOrderId();
 
-        if ($this->_authorization->isAllowed('Opengento_Gdpr::order_export')) {
+        if ($this->_authorization->isAllowed('HenriqueAmrl_Lgpd::order_export')) {
             $orderView->addButton(
-                'opengento-gdpr-order-view-export-button',
+                'henriqueamrl-lgpd-order-view-export-button',
                 [
                     'label' => new Phrase('Export Personal Data'),
                     'class' => 'export',

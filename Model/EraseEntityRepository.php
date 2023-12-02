@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Exception;
 use Magento\Framework\Api\SearchCriteria\CollectionProcessorInterface;
@@ -15,14 +15,14 @@ use Magento\Framework\Exception\CouldNotDeleteException;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Api\Data\EraseEntityInterfaceFactory;
-use Opengento\Gdpr\Api\Data\EraseEntitySearchResultsInterface;
-use Opengento\Gdpr\Api\Data\EraseEntitySearchResultsInterfaceFactory;
-use Opengento\Gdpr\Api\EraseEntityRepositoryInterface;
-use Opengento\Gdpr\Model\ResourceModel\EraseEntity as EraseEntityResource;
-use Opengento\Gdpr\Model\ResourceModel\EraseEntity\Collection;
-use Opengento\Gdpr\Model\ResourceModel\EraseEntity\CollectionFactory;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntitySearchResultsInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntitySearchResultsInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\EraseEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\EraseEntity as EraseEntityResource;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\EraseEntity\Collection;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\EraseEntity\CollectionFactory;
 
 final class EraseEntityRepository implements EraseEntityRepositoryInterface
 {

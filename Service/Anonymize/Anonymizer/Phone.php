@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Anonymize\Anonymizer;
+namespace HenriqueAmrl\Lgpd\Service\Anonymize\Anonymizer;
 
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
 
 final class Phone implements AnonymizerInterface
 {

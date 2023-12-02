@@ -5,14 +5,14 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Export\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Export\Processor;
 
 use Magento\Customer\Api\AddressRepositoryInterface;
 use Magento\Customer\Api\Data\AddressInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\Exception\LocalizedException;
-use Opengento\Gdpr\Model\Entity\DataCollectorInterface;
-use Opengento\Gdpr\Service\Export\Processor\AbstractDataProcessor;
+use HenriqueAmrl\Lgpd\Model\Entity\DataCollectorInterface;
+use HenriqueAmrl\Lgpd\Service\Export\Processor\AbstractDataProcessor;
 
 final class CustomerAddressDataProcessor extends AbstractDataProcessor
 {

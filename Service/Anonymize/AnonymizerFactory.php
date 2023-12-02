@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Anonymize;
+namespace HenriqueAmrl\Lgpd\Service\Anonymize;
 
 use InvalidArgumentException;
 use Magento\Framework\ObjectManagerInterface;

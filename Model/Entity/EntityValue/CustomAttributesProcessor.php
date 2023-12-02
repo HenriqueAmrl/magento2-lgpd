@@ -5,10 +5,10 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Entity\EntityValue;
+namespace HenriqueAmrl\Lgpd\Model\Entity\EntityValue;
 
 use Magento\Framework\Api\CustomAttributesDataInterface;
-use Opengento\Gdpr\Model\Entity\EntityValueProcessorInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityValueProcessorInterface;
 use function is_iterable;
 
 final class CustomAttributesProcessor implements EntityValueProcessorInterface

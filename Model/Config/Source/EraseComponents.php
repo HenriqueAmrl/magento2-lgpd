@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Config\Source;
+namespace HenriqueAmrl\Lgpd\Model\Config\Source;
 
 use Magento\Framework\Data\OptionSourceInterface;
 use Magento\Framework\ObjectManager\ConfigInterface;
@@ -21,7 +21,7 @@ final class EraseComponents implements OptionSourceInterface
     private ConfigInterface $objectManagerConfig;
 
     /**
-     * Class must be an instance of `\Opengento\Gdpr\Service\Erase\ProcessorResolverFactory`
+     * Class must be an instance of `\HenriqueAmrl\Lgpd\Service\Erase\ProcessorResolverFactory`
      *
      * @var string
      */

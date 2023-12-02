@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Config\Backend;
+namespace HenriqueAmrl\Lgpd\Model\Config\Backend;
 
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Framework\App\Cache\TypeListInterface;
@@ -17,7 +17,7 @@ use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Model\Context;
 use Magento\Framework\Model\ResourceModel\AbstractResource;
 use Magento\Framework\Registry;
-use Opengento\Gdpr\Api\ExportEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityRepositoryInterface;
 
 class Export extends Value
 {

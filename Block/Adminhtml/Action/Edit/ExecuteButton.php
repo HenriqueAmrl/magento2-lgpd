@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Block\Adminhtml\Action\Edit;
+namespace HenriqueAmrl\Lgpd\Block\Adminhtml\Action\Edit;
 
 use Magento\Framework\Phrase;
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
@@ -23,7 +23,7 @@ final class ExecuteButton implements ButtonProviderInterface
             ],
             'on_click' => 'location.reload();',
             'sort_order' => 30,
-            'aclResource' => 'Opengento_Gdpr::gdpr_actions_execute',
+            'aclResource' => 'HenriqueAmrl_Lgpd::lgpd_actions_execute',
         ];
     }
 }

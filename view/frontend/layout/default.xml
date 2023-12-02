@@ -9,11 +9,11 @@
     <body>
         <referenceBlock name="cookie_notices" template="">
             <arguments>
-                <argument name="template" xsi:type="helper" helper="Opengento\Gdpr\ViewModel\Cookie\NoticeDataProvider::getTemplate">
+                <argument name="template" xsi:type="helper" helper="HenriqueAmrl\Lgpd\ViewModel\Cookie\NoticeDataProvider::getTemplate">
                     <param name="defaultTemplate">Magento_Cookie::html/notices.phtml</param>
-                    <param name="customTemplate">Opengento_Gdpr::cookie/notices.phtml</param>
+                    <param name="customTemplate">HenriqueAmrl_Lgpd::cookie/notices.phtml</param>
                 </argument>
-                <argument name="noticeDataProvider" xsi:type="object">Opengento\Gdpr\ViewModel\Cookie\NoticeDataProvider</argument>
+                <argument name="noticeDataProvider" xsi:type="object">HenriqueAmrl\Lgpd\ViewModel\Cookie\NoticeDataProvider</argument>
             </arguments>
         </referenceBlock>
     </body>

@@ -13,7 +13,7 @@ Export Personal Data,Exportar Dados Pessoais
 The action state is now: %1.,O estado da ação agora é: %1.
 An error occurred on the server.,Ocorreu um erro no servidor.
 View Actions,Ver Ações
-GDPR,GDPR
+LGPD,LGPD
 Please correct the data sent.,"Por favor, corrija os dados enviados."
 "Action with ID ""%1"": %2","Ação com ID ""%1"": %2"
 A total of %1 record(s) have been deleted.,Um total de %1 registro(s) foram apagados.
@@ -43,8 +43,8 @@ The erasure process is running and cannot be undone.,O processo de apagamento es
 "Impossible to process the erasure, there is still pending orders.","Impossível processar o apagamento, ainda existem pedidos pendentes."
 Impossible to process the erasure: %1,Impossível processar o apagamento: %1
 "An export entity already exists for the entity type ""%1"" with ID ""%2"".","Já existe uma entidade de exportação para o tipo de entidade ""%1"" com ID ""%2""."
-GDPR Email Success,Sucesso do E-mail GDPR
-GDPR Email Error: %1,Erro do E-mail GDPR: %1
+LGPD Email Success,Sucesso do E-mail LGPD
+LGPD Email Error: %1,Erro do E-mail LGPD: %1
 "State ""%1"" does not exists.","O estado ""%1"" não existe."
 * Required Fields,* Campos Obrigatórios
 Confirm password to continue,Confirme a senha para continuar
@@ -76,17 +76,17 @@ Export your %store_name information,Exportar suas informações da %store_name
 We have received a request to export the information associated with your account at %store_name.,Recebemos uma solicitação para exportar as informações associadas à sua conta na %store_name.
 We will notify you when the export will be ready. The action will be available in your account.,Notificaremos você quando a exportação estiver pronta. A ação estará disponível em sua conta.
 The export of you personal data is ready. The action is now available in your account.,A exportação dos seus dados pessoais está pronta. A ação está agora disponível em sua conta.
-GDPR Compliance Erase Customer,Conformidade GDPR Apagar Cliente
-GDPR Compliance Export Customer,Conformidade GDPR Exportar Cliente
-GDPR Compliance Erase Guest Order,Conformidade GDPR Apagar Pedido de Visitante
-GDPR Compliance Export Guest Order,Conformidade GDPR Exportar Pedido de Visitante
-GDPR Actions,Ações GDPR
+LGPD Compliance Erase Customer,Conformidade LGPD Apagar Cliente
+LGPD Compliance Export Customer,Conformidade LGPD Exportar Cliente
+LGPD Compliance Erase Guest Order,Conformidade LGPD Apagar Pedido de Visitante
+LGPD Compliance Export Guest Order,Conformidade LGPD Exportar Pedido de Visitante
+LGPD Actions,Ações LGPD
 Execute Actions,Executar Ações
 Edit Actions,Editar Ações
 Delete Actions,Apagar Ações
-GDPR Compliance Section,Seção de Conformidade GDPR
+LGPD Compliance Section,Seção de Conformidade LGPD
 Action Logs,Logs de Ações
-GDPR Compliance,Conformidade GDPR
+LGPD Compliance,Conformidade LGPD
 User Action,Ação do Usuário
 Action Settings,Configurações de Ação
 Cookie Policy,Política de Cookies
@@ -172,7 +172,7 @@ General,Geral
 Enabled,Habilitado
 It will enable the module features in the admin and frontend ui.,Habilita as funcionalidades do módulo na interface admin e frontend.
 Information page,Página de Informações
-This page should store information about privacy and GDPR policy.,Esta página deve armazenar informações sobre privacidade e política de GDPR.
+This page should store information about privacy and LGPD policy.,Esta página deve armazenar informações sobre privacidade e política de LGPD.
 User Notification,Notificação do Usuário
 Notification,Notificação
 Pending Action,Ação Pendente
@@ -195,10 +195,10 @@ Ready Export Template,Modelo de Exportação Pronto
 Ready Export Template for Guest,Modelo de Exportação Pronto para Visitante
 Are you sure you want to erase the selected customers?,Você tem certeza de que deseja apagar os clientes selecionados?
 Erase items,Apagar itens
-Erase (GDPR),Apagar (GDPR)
+Erase (LGPD),Apagar (LGPD)
 Are you sure you want to export the selected customers?,Você tem certeza de que deseja exportar os clientes selecionados?
 Export items,Exportar itens
-Export (GDPR),Exportar (GDPR)
+Export (LGPD),Exportar (LGPD)
 New Action,Nova Ação
 Type,Tipo
 Action types are registered in the code.,Os tipos de ação são registrados no código.

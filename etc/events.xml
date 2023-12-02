@@ -7,9 +7,9 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="model_save_after">
-        <observer name="opengento_gdpr_invalidate_export_entity" instance="Opengento\Gdpr\Observer\InvalidateExport"/>
+        <observer name="henriqueamrl_lgpd_invalidate_export_entity" instance="HenriqueAmrl\Lgpd\Observer\InvalidateExport"/>
     </event>
     <event name="model_delete_after">
-        <observer name="opengento_gdpr_delete_export_entity" instance="Opengento\Gdpr\Observer\DeleteExport"/>
+        <observer name="henriqueamrl_lgpd_delete_export_entity" instance="HenriqueAmrl\Lgpd\Observer\DeleteExport"/>
     </event>
 </config>

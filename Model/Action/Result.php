@@ -5,10 +5,10 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action;
+namespace HenriqueAmrl\Lgpd\Model\Action;
 
 use DateTime;
-use Opengento\Gdpr\Api\Data\ActionResultInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionResultInterface;
 
 final class Result implements ActionResultInterface
 {

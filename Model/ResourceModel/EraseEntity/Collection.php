@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\ResourceModel\EraseEntity;
+namespace HenriqueAmrl\Lgpd\Model\ResourceModel\EraseEntity;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Model\EraseEntity;
-use Opengento\Gdpr\Model\ResourceModel\EraseEntity as EraseEntityResourceModel;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Model\EraseEntity;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\EraseEntity as EraseEntityResourceModel;
 
 class Collection extends AbstractCollection
 {

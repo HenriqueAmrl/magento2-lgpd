@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer\Delete\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Customer\Delete\Processor;
 
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Customer\Api\SessionCleanerInterface;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
 
 final class CustomerDataProcessor implements ProcessorInterface
 {

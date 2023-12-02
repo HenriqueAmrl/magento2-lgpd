@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Api\Data;
+namespace HenriqueAmrl\Lgpd\Api\Data;
 
 use DateTime;
 

@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\ResourceModel\ExportEntity;
+namespace HenriqueAmrl\Lgpd\Model\ResourceModel\ExportEntity;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Model\ExportEntity;
-use Opengento\Gdpr\Model\ResourceModel\ExportEntity as ExportEntityResourceModel;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Model\ExportEntity;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ExportEntity as ExportEntityResourceModel;
 
 class Collection extends AbstractCollection
 {

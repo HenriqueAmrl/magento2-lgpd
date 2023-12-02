@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Exception;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -15,15 +15,15 @@ use Magento\Framework\Phrase;
 use Magento\Framework\Stdlib\DateTime as DateTimeFormat;
 use Magento\Framework\Stdlib\DateTime\DateTime;
 use Magento\Store\Model\ScopeInterface;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Api\Data\EraseEntityInterfaceFactory;
-use Opengento\Gdpr\Api\EraseEntityManagementInterface;
-use Opengento\Gdpr\Api\EraseEntityRepositoryInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorFactory;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\EraseEntityManagementInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorFactory;
 
 final class EraseEntityManagement implements EraseEntityManagementInterface
 {
-    private const CONFIG_PATH_ERASURE_DELAY = 'gdpr/erasure/delay';
+    private const CONFIG_PATH_ERASURE_DELAY = 'lgpd/erasure/delay';
 
     private EraseEntityInterfaceFactory $eraseEntityFactory;
 

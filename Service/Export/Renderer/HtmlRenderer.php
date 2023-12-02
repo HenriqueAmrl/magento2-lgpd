@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Export\Renderer;
+namespace HenriqueAmrl\Lgpd\Service\Export\Renderer;
 
 use Exception;
 use InvalidArgumentException;
@@ -18,8 +18,8 @@ use Magento\Framework\View\DesignInterface;
 use Magento\Framework\View\Element\Template;
 use Magento\Framework\View\FileSystem as ViewFileSystem;
 use Magento\Framework\View\Page\Config;
-use Opengento\Gdpr\Service\Export\Renderer\HtmlRenderer\LayoutInitiatorInterface;
-use Opengento\Gdpr\Service\Export\Renderer\HtmlRenderer\View\RendererFactory;
+use HenriqueAmrl\Lgpd\Service\Export\Renderer\HtmlRenderer\LayoutInitiatorInterface;
+use HenriqueAmrl\Lgpd\Service\Export\Renderer\HtmlRenderer\View\RendererFactory;
 use function extract;
 use function ob_end_clean;
 use function ob_get_clean;

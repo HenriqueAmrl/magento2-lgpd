@@ -9,7 +9,7 @@
     <update handle="styles"/>
     <body>
         <referenceContainer name="content">
-            <uiComponent name="gdpr_action_form"/>
+            <uiComponent name="lgpd_action_form"/>
         </referenceContainer>
     </body>
 </page>

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Guest;
+namespace HenriqueAmrl\Lgpd\Controller\Guest;
 
 use Exception;
 use Magento\Framework\App\Action\HttpGetActionInterface;
@@ -18,11 +18,11 @@ use Magento\Framework\Message\ManagerInterface;
 use Magento\Framework\Phrase;
 use Magento\Framework\Registry;
 use Magento\Sales\Controller\AbstractController\OrderLoaderInterface;
-use Opengento\Gdpr\Api\ActionInterface;
-use Opengento\Gdpr\Controller\AbstractGuest;
-use Opengento\Gdpr\Model\Action\ArgumentReader;
-use Opengento\Gdpr\Model\Action\ContextBuilder;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Api\ActionInterface;
+use HenriqueAmrl\Lgpd\Controller\AbstractGuest;
+use HenriqueAmrl\Lgpd\Model\Action\ArgumentReader;
+use HenriqueAmrl\Lgpd\Model\Action\ContextBuilder;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 class Export extends AbstractGuest implements HttpGetActionInterface
 {

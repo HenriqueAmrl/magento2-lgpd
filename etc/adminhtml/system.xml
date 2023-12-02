@@ -7,20 +7,20 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="opengento_gdpr" translate="label" sortOrder="200">
-            <label>GDPR Compliance</label>
+        <tab id="henriqueamrl_lgpd" translate="label" sortOrder="200">
+            <label>LGPD Compliance</label>
         </tab>
         <!-- Global Settings -->
-        <include path="Opengento_Gdpr::system/general.xml"/>
+        <include path="HenriqueAmrl_Lgpd::system/general.xml"/>
         <!-- Action Settings -->
-        <include path="Opengento_Gdpr::system/action.xml"/>
+        <include path="HenriqueAmrl_Lgpd::system/action.xml"/>
         <!-- Erasure Settings -->
-        <include path="Opengento_Gdpr::system/erasure.xml"/>
+        <include path="HenriqueAmrl_Lgpd::system/erasure.xml"/>
         <!-- Export Settings -->
-        <include path="Opengento_Gdpr::system/export.xml"/>
+        <include path="HenriqueAmrl_Lgpd::system/export.xml"/>
         <!-- Notification Settings -->
-        <include path="Opengento_Gdpr::system/notification.xml"/>
+        <include path="HenriqueAmrl_Lgpd::system/notification.xml"/>
         <!-- Cookie Settings -->
-        <include path="Opengento_Gdpr::system/cookie.xml"/>
+        <include path="HenriqueAmrl_Lgpd::system/cookie.xml"/>
     </system>
 </config>

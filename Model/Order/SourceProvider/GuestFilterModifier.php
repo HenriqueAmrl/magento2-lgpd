@@ -5,14 +5,14 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order\SourceProvider;
+namespace HenriqueAmrl\Lgpd\Model\Order\SourceProvider;
 
 use Magento\Framework\Api\Filter;
 use Magento\Framework\Data\Collection;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Sales\Api\Data\OrderInterface;
-use Opengento\Gdpr\Model\Config;
-use Opengento\Gdpr\Model\Entity\SourceProvider\ModifierInterface;
+use HenriqueAmrl\Lgpd\Model\Config;
+use HenriqueAmrl\Lgpd\Model\Entity\SourceProvider\ModifierInterface;
 
 final class GuestFilterModifier implements ModifierInterface
 {

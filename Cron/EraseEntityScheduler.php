@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Cron;
+namespace HenriqueAmrl\Lgpd\Cron;
 
 use DateTime;
 use Exception;
@@ -14,9 +14,9 @@ use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Store\Model\ScopeInterface;
-use Opengento\Gdpr\Model\Config;
-use Opengento\Gdpr\Model\Entity\EntityTypeList;
-use Opengento\Gdpr\Model\Erase\EraseEntityScheduler as EraseEntitySchedulerService;
+use HenriqueAmrl\Lgpd\Model\Config;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityTypeList;
+use HenriqueAmrl\Lgpd\Model\Erase\EraseEntityScheduler as EraseEntitySchedulerService;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -24,7 +24,7 @@ use Psr\Log\LoggerInterface;
  */
 final class EraseEntityScheduler
 {
-    private const CONFIG_PATH_ERASURE_MAX_AGE = 'gdpr/erasure/entity_max_age';
+    private const CONFIG_PATH_ERASURE_MAX_AGE = 'lgpd/erasure/entity_max_age';
 
     private LoggerInterface $logger;
 

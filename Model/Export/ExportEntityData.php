@@ -5,16 +5,16 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Export;
+namespace HenriqueAmrl\Lgpd\Model\Export;
 
 use Magento\Framework\Exception\AlreadyExistsException;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Api\ExportEntityCheckerInterface;
-use Opengento\Gdpr\Api\ExportEntityManagementInterface;
-use Opengento\Gdpr\Api\ExportEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityManagementInterface;
+use HenriqueAmrl\Lgpd\Api\ExportEntityRepositoryInterface;
 
 /**
  * @api

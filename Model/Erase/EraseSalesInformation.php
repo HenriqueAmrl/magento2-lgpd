@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Erase;
+namespace HenriqueAmrl\Lgpd\Model\Erase;
 
 use DateTimeImmutable;
 use Exception;
@@ -13,14 +13,14 @@ use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Stdlib\DateTime;
 use Magento\Store\Model\ScopeInterface;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Api\Data\EraseEntityInterfaceFactory;
-use Opengento\Gdpr\Api\EraseEntityRepositoryInterface;
-use Opengento\Gdpr\Api\EraseSalesInformationInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterfaceFactory;
+use HenriqueAmrl\Lgpd\Api\EraseEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Api\EraseSalesInformationInterface;
 
 final class EraseSalesInformation implements EraseSalesInformationInterface
 {
-    private const CONFIG_PATH_ERASURE_SALES_MAX_AGE = 'gdpr/erasure/sales_max_age';
+    private const CONFIG_PATH_ERASURE_SALES_MAX_AGE = 'lgpd/erasure/sales_max_age';
 
     private EraseEntityInterfaceFactory $eraseEntityFactory;
 

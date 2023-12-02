@@ -5,16 +5,16 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Anonymize\Anonymizer;
+namespace HenriqueAmrl\Lgpd\Service\Anonymize\Anonymizer;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Math\Random;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
 
 final class Email implements AnonymizerInterface
 {
-    private const PHRASE = '%1-anonymous-%2@gdpr.org';
+    private const PHRASE = '%1-anonymous-%2@lgpd.org';
     private const PREFIX_LENGTH = 3;
     private const SUFFIX_LENGTH = 2;
 

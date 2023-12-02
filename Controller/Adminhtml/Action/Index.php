@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Adminhtml\Action;
+namespace HenriqueAmrl\Lgpd\Controller\Adminhtml\Action;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\Model\View\Result\Page;
@@ -15,15 +15,15 @@ use Magento\Framework\Phrase;
 
 class Index extends Action implements HttpGetActionInterface
 {
-    public const ADMIN_RESOURCE = 'Opengento_Gdpr::gdpr_action';
+    public const ADMIN_RESOURCE = 'HenriqueAmrl_Lgpd::lgpd_action';
 
     public function execute(): Page
     {
         /** @var Page $resultPage */
         $resultPage = $this->resultFactory->create(ResultFactory::TYPE_PAGE);
-        $resultPage->setActiveMenu('Opengento_Gdpr::gdpr_actions');
+        $resultPage->setActiveMenu('HenriqueAmrl_Lgpd::lgpd_actions');
         $resultPage->getConfig()->getTitle()->set(new Phrase('View Actions'));
-        $resultPage->addBreadcrumb(new Phrase('GDPR'), new Phrase('GDPR'));
+        $resultPage->addBreadcrumb(new Phrase('LGPD'), new Phrase('LGPD'));
         $resultPage->addBreadcrumb(new Phrase('View Actions'), new Phrase('View Actions'));
 
         return $resultPage;

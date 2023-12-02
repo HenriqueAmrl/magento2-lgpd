@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Order\Export\Processor;
+namespace HenriqueAmrl\Lgpd\Model\Order\Export\Processor;
 
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Api\OrderRepositoryInterface;
-use Opengento\Gdpr\Model\Entity\DataCollectorInterface;
-use Opengento\Gdpr\Model\Newsletter\Subscriber;
-use Opengento\Gdpr\Model\Newsletter\SubscriberFactory;
+use HenriqueAmrl\Lgpd\Model\Entity\DataCollectorInterface;
+use HenriqueAmrl\Lgpd\Model\Newsletter\Subscriber;
+use HenriqueAmrl\Lgpd\Model\Newsletter\SubscriberFactory;
 
 final class SubscriberDataProcessor extends AbstractDataProcessor
 {

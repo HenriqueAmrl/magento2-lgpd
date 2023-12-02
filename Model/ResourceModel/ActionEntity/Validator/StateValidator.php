@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\ResourceModel\ActionEntity\Validator;
+namespace HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity\Validator;
 
 use Magento\Framework\Phrase;
 use Magento\Framework\Validator\AbstractValidator;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Model\Config\Source\ActionStates;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Model\Config\Source\ActionStates;
 use function array_column;
 use function in_array;
 

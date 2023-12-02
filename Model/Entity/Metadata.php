@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Entity;
+namespace HenriqueAmrl\Lgpd\Model\Entity;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use function explode;

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Export\Renderer;
+namespace HenriqueAmrl\Lgpd\Service\Export\Renderer;
 
 use Magento\Framework\Filesystem;
 use function is_array;

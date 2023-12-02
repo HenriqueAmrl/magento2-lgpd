@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Config;
+namespace HenriqueAmrl\Lgpd\Model\Config;
 
 use Magento\Cms\Block\BlockByIdentifier;
 use Magento\Cms\Helper\Page as HelperPage;
@@ -15,9 +15,9 @@ use Magento\Store\Model\ScopeInterface;
 
 final class PrivacyMessage
 {
-    private const CONFIG_PATH_COOKIE_INFORMATION_ENABLED = 'gdpr/cookie/enabled';
-    private const CONFIG_PATH_COOKIE_INFORMATION_BLOCK = 'gdpr/cookie/block_id';
-    private const CONFIG_PATH_COOKIE_INFORMATION_PAGE = 'gdpr/cookie/page_id';
+    private const CONFIG_PATH_COOKIE_INFORMATION_ENABLED = 'lgpd/cookie/enabled';
+    private const CONFIG_PATH_COOKIE_INFORMATION_BLOCK = 'lgpd/cookie/block_id';
+    private const CONFIG_PATH_COOKIE_INFORMATION_PAGE = 'lgpd/cookie/page_id';
 
     private ScopeConfigInterface $scopeConfig;
 

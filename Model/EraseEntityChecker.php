@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model;
+namespace HenriqueAmrl\Lgpd\Model;
 
 use Magento\Framework\Exception\NoSuchEntityException;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Api\EraseEntityCheckerInterface;
-use Opengento\Gdpr\Api\EraseEntityRepositoryInterface;
-use Opengento\Gdpr\Model\Entity\EntityCheckerFactory;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityCheckerFactory;
 
 final class EraseEntityChecker implements EraseEntityCheckerInterface
 {

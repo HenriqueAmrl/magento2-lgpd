@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller;
+namespace HenriqueAmrl\Lgpd\Controller;
 
 use Magento\Customer\Model\Session;
 use Magento\Framework\App\RequestInterface;
@@ -13,7 +13,7 @@ use Magento\Framework\App\Response\Http;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Exception\NotFoundException;
 use Magento\Framework\Message\ManagerInterface;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 /**
  * This class is introduced to handle customer authentication verification.

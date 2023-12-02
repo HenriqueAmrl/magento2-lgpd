@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Privacy;
+namespace HenriqueAmrl\Lgpd\Controller\Privacy;
 
 use Magento\Customer\Model\Session;
 use Magento\Framework\App\Action\HttpGetActionInterface;
@@ -15,9 +15,9 @@ use Magento\Framework\Controller\Result\Redirect;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Message\ManagerInterface;
 use Magento\Framework\Phrase;
-use Opengento\Gdpr\Api\EraseEntityCheckerInterface;
-use Opengento\Gdpr\Controller\AbstractPrivacy;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Api\EraseEntityCheckerInterface;
+use HenriqueAmrl\Lgpd\Controller\AbstractPrivacy;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 class Erase extends AbstractPrivacy implements HttpGetActionInterface
 {

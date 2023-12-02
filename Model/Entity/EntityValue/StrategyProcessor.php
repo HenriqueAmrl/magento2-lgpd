@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Entity\EntityValue;
+namespace HenriqueAmrl\Lgpd\Model\Entity\EntityValue;
 
-use Opengento\Gdpr\Model\Entity\EntityValueProcessorInterface;
+use HenriqueAmrl\Lgpd\Model\Entity\EntityValueProcessorInterface;
 
 final class StrategyProcessor implements EntityValueProcessorInterface
 {

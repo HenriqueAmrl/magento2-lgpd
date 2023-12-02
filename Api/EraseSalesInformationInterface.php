@@ -5,10 +5,10 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Api;
+namespace HenriqueAmrl\Lgpd\Api;
 
 use DateTime;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
 
 /**
  * @api

@@ -5,13 +5,13 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Newsletter;
+namespace HenriqueAmrl\Lgpd\Model\Newsletter;
 
 use Magento\Newsletter\Model\Subscriber as SubscriberModel;
 use Magento\Newsletter\Model\SubscriberFactory;
 
 /**
- * `\Opengento\Gdpr\Model\Newsletter\Subscriber` class is the final state of `\Magento\Newsletter\Model\Subscriber`.
+ * `\HenriqueAmrl\Lgpd\Model\Newsletter\Subscriber` class is the final state of `\Magento\Newsletter\Model\Subscriber`.
  *
  * @method SubscriberModel loadByCustomerId(int $customerId)
  * @method SubscriberModel loadByEmail(string $email)

@@ -5,24 +5,24 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Export;
+namespace HenriqueAmrl\Lgpd\Model\Export;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Exception\FileSystemException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Exception\NotFoundException;
 use Magento\Store\Model\ScopeInterface;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
-use Opengento\Gdpr\Model\Archive\ArchiveManager;
-use Opengento\Gdpr\Service\Export\ProcessorFactory;
-use Opengento\Gdpr\Service\Export\RendererFactory;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Model\Archive\ArchiveManager;
+use HenriqueAmrl\Lgpd\Service\Export\ProcessorFactory;
+use HenriqueAmrl\Lgpd\Service\Export\RendererFactory;
 use function explode;
 use function sha1;
 use const DIRECTORY_SEPARATOR;
 
 final class ExportToFile
 {
-    private const CONFIG_PATH_EXPORT_RENDERERS = 'gdpr/export/renderers';
+    private const CONFIG_PATH_EXPORT_RENDERERS = 'lgpd/export/renderers';
 
     private ProcessorFactory $processorFactory;
 
@@ -77,7 +77,7 @@ final class ExportToFile
 
     private function prepareFileName(ExportEntityInterface $exportEntity): string
     {
-        return 'gdpr' .
+        return 'lgpd' .
             DIRECTORY_SEPARATOR .
             sha1($exportEntity->getEntityType() . $exportEntity->getExportId()) .
             DIRECTORY_SEPARATOR .

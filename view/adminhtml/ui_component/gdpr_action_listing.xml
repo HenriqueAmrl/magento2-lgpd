@@ -8,7 +8,7 @@
 <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
     <argument name="data" xsi:type="array">
         <item name="js_config" xsi:type="array">
-            <item name="provider" xsi:type="string">gdpr_action_listing.gdpr_action_listing_data_source</item>
+            <item name="provider" xsi:type="string">lgpd_action_listing.lgpd_action_listing_data_source</item>
         </item>
     </argument>
     <settings>
@@ -19,20 +19,20 @@
                 <label translate="true">Execute New Action</label>
             </button>
         </buttons>
-        <spinner>gdpr_action_columns</spinner>
+        <spinner>lgpd_action_columns</spinner>
         <deps>
-            <dep>gdpr_action_listing.gdpr_action_listing_data_source</dep>
+            <dep>lgpd_action_listing.lgpd_action_listing_data_source</dep>
         </deps>
     </settings>
-    <dataSource name="gdpr_action_listing_data_source" component="Magento_Ui/js/grid/provider">
+    <dataSource name="lgpd_action_listing_data_source" component="Magento_Ui/js/grid/provider">
         <settings>
             <storageConfig>
                 <param name="indexField" xsi:type="string">action_id</param>
             </storageConfig>
             <updateUrl path="mui/index/render"/>
         </settings>
-        <aclResource>Opengento_Gdpr::gdpr_actions</aclResource>
-        <dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider" name="gdpr_action_listing_data_source">
+        <aclResource>HenriqueAmrl_Lgpd::lgpd_actions</aclResource>
+        <dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider" name="lgpd_action_listing_data_source">
             <settings>
                 <requestFieldName>id</requestFieldName>
                 <primaryFieldName>action_id</primaryFieldName>
@@ -53,7 +53,7 @@
                 <settings>
                     <callback>
                         <target>editSelected</target>
-                        <provider>gdpr_action_listing.gdpr_action_listing.gdpr_action_columns_editor</provider>
+                        <provider>lgpd_action_listing.lgpd_action_listing.lgpd_action_columns_editor</provider>
                     </callback>
                     <type>edit</type>
                     <label translate="true">Edit</label>
@@ -65,7 +65,7 @@
                         <message translate="true">Are you sure you want to delete the action log?</message>
                         <title translate="true">Delete items</title>
                     </confirm>
-                    <url path="gdpr/action/massDelete"/>
+                    <url path="lgpd/action/massDelete"/>
                     <type>delete</type>
                     <label translate="true">Delete</label>
                 </settings>
@@ -73,20 +73,20 @@
         </massaction>
         <paging name="listing_paging"/>
     </listingToolbar>
-    <columns name="gdpr_action_columns">
+    <columns name="lgpd_action_columns">
         <settings>
             <editorConfig>
                 <param name="clientConfig" xsi:type="array">
-                    <item name="saveUrl" xsi:type="url" path="gdpr/action/inlineEdit"/>
+                    <item name="saveUrl" xsi:type="url" path="lgpd/action/inlineEdit"/>
                     <item name="validateBeforeSave" xsi:type="boolean">false</item>
                 </param>
                 <param name="indexField" xsi:type="string">action_id</param>
                 <param name="enabled" xsi:type="boolean">true</param>
-                <param name="selectProvider" xsi:type="string">gdpr_action_listing.gdpr_action_listing.gdpr_action_columns.ids</param>
+                <param name="selectProvider" xsi:type="string">lgpd_action_listing.lgpd_action_listing.lgpd_action_columns.ids</param>
             </editorConfig>
             <childDefaults>
                 <param name="fieldAction" xsi:type="array">
-                    <item name="provider" xsi:type="string">gdpr_action_listing.gdpr_action_listing.gdpr_action_columns_editor</item>
+                    <item name="provider" xsi:type="string">lgpd_action_listing.lgpd_action_listing.lgpd_action_columns_editor</item>
                     <item name="target" xsi:type="string">startEdit</item>
                     <item name="params" xsi:type="array">
                         <item name="0" xsi:type="string">${ $.$data.rowIndex }</item>
@@ -138,7 +138,7 @@
         </column>
         <column name="state" component="Magento_Ui/js/grid/columns/select" sortOrder="70">
             <settings>
-                <options class="Opengento\Gdpr\Model\Config\Source\ActionStates"/>
+                <options class="HenriqueAmrl\Lgpd\Model\Config\Source\ActionStates"/>
                 <filter>select</filter>
                 <dataType>select</dataType>
                 <label translate="true">State</label>

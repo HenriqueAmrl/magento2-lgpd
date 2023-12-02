@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Customer;
+namespace HenriqueAmrl\Lgpd\Model\Customer;
 
 use Magento\Customer\Api\Data\CustomerInterface;
 

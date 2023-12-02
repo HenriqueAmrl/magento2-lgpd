@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Block\Adminhtml\Action\Edit;
+namespace HenriqueAmrl\Lgpd\Block\Adminhtml\Action\Edit;
 
 use Magento\Framework\Phrase;
 use Magento\Framework\UrlInterface;

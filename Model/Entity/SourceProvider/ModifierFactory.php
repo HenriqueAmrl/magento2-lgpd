@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Entity\SourceProvider;
+namespace HenriqueAmrl\Lgpd\Model\Entity\SourceProvider;
 
 use Magento\Framework\ObjectManagerInterface;
 

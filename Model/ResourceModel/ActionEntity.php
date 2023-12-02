@@ -5,19 +5,19 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\ResourceModel;
+namespace HenriqueAmrl\Lgpd\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\Context;
 use Magento\Framework\Model\ResourceModel\Db\VersionControl\AbstractDb;
 use Magento\Framework\Model\ResourceModel\Db\VersionControl\RelationComposite;
 use Magento\Framework\Model\ResourceModel\Db\VersionControl\Snapshot;
 use Magento\Framework\Validator\ValidatorInterface;
-use Opengento\Gdpr\Api\Data\ActionEntityInterface;
-use Opengento\Gdpr\Model\ResourceModel\ActionEntity\Validator;
+use HenriqueAmrl\Lgpd\Api\Data\ActionEntityInterface;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity\Validator;
 
 class ActionEntity extends AbstractDb
 {
-    public const TABLE = 'opengento_gdpr_action_entity';
+    public const TABLE = 'henriqueamrl_lgpd_action_entity';
 
     private Validator $validator;
 

@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller;
+namespace HenriqueAmrl\Lgpd\Controller;
 
 use Magento\Framework\App\ActionInterface;
 use Magento\Framework\App\RequestInterface;
@@ -15,7 +15,7 @@ use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\Exception\NotFoundException;
 use Magento\Framework\Message\ManagerInterface;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Model\Config;
 
 abstract class AbstractAction implements ActionInterface
 {

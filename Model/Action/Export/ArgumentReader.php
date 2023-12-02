@@ -5,10 +5,10 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Model\Action\Export;
+namespace HenriqueAmrl\Lgpd\Model\Action\Export;
 
-use Opengento\Gdpr\Api\Data\ActionContextInterface;
-use Opengento\Gdpr\Api\Data\ExportEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ActionContextInterface;
+use HenriqueAmrl\Lgpd\Api\Data\ExportEntityInterface;
 
 final class ArgumentReader
 {

@@ -5,11 +5,11 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Anonymize\Anonymizer;
+namespace HenriqueAmrl\Lgpd\Service\Anonymize\Anonymizer;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Math\Random;
-use Opengento\Gdpr\Service\Anonymize\AnonymizerInterface;
+use HenriqueAmrl\Lgpd\Service\Anonymize\AnonymizerInterface;
 
 final class AlphaUpper implements AnonymizerInterface
 {

@@ -6,18 +6,18 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
-    <group id="gdpr">
-        <job name="gdpr_erase_entity" instance="Opengento\Gdpr\Cron\EraseEntity" method="execute">
-            <config_path>gdpr/erasure/entity_schedule</config_path>
+    <group id="lgpd">
+        <job name="lgpd_erase_entity" instance="HenriqueAmrl\Lgpd\Cron\EraseEntity" method="execute">
+            <config_path>lgpd/erasure/entity_schedule</config_path>
         </job>
-        <job name="gdpr_erase_entity_scheduler" instance="Opengento\Gdpr\Cron\EraseEntityScheduler" method="execute">
-            <config_path>gdpr/erasure/entity_max_age_schedule</config_path>
+        <job name="lgpd_erase_entity_scheduler" instance="HenriqueAmrl\Lgpd\Cron\EraseEntityScheduler" method="execute">
+            <config_path>lgpd/erasure/entity_max_age_schedule</config_path>
         </job>
-        <job name="gdpr_export_entity" instance="Opengento\Gdpr\Cron\ExportEntity" method="execute">
-            <config_path>gdpr/export/entity_schedule</config_path>
+        <job name="lgpd_export_entity" instance="HenriqueAmrl\Lgpd\Cron\ExportEntity" method="execute">
+            <config_path>lgpd/export/entity_schedule</config_path>
         </job>
-        <job name="gdpr_export_entity_expired" instance="Opengento\Gdpr\Cron\ExportEntityExpired" method="execute">
-            <config_path>gdpr/export/entity_expired_schedule</config_path>
+        <job name="lgpd_export_entity_expired" instance="HenriqueAmrl\Lgpd\Cron\ExportEntityExpired" method="execute">
+            <config_path>lgpd/export/entity_expired_schedule</config_path>
         </job>
     </group>
 </config>

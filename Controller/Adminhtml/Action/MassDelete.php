@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Controller\Adminhtml\Action;
+namespace HenriqueAmrl\Lgpd\Controller\Adminhtml\Action;
 
 use Exception;
 use Magento\Backend\App\Action;
@@ -19,13 +19,13 @@ use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Phrase;
 use Magento\Ui\Component\MassAction\Filter;
-use Opengento\Gdpr\Api\ActionEntityRepositoryInterface;
-use Opengento\Gdpr\Api\ActionInterface;
-use Opengento\Gdpr\Model\ResourceModel\ActionEntity\CollectionFactory;
+use HenriqueAmrl\Lgpd\Api\ActionEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Api\ActionInterface;
+use HenriqueAmrl\Lgpd\Model\ResourceModel\ActionEntity\CollectionFactory;
 
 class MassDelete extends Action implements HttpPostActionInterface
 {
-    public const ADMIN_RESOURCE = 'Opengento_Gdpr::gdpr_actions_delete';
+    public const ADMIN_RESOURCE = 'HenriqueAmrl_Lgpd::lgpd_actions_delete';
 
     /**
      * @var Filter

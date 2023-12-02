@@ -16,7 +16,7 @@
                     </confirm>
                     <url path="customer/privacy/massErase"/>
                     <type>erase</type>
-                    <label translate="true">Erase (GDPR)</label>
+                    <label translate="true">Erase (LGPD)</label>
                 </settings>
             </action>
             <action name="export">
@@ -27,7 +27,7 @@
                     </confirm>
                     <url path="customer/privacy/massExport"/>
                     <type>export</type>
-                    <label translate="true">Export (GDPR)</label>
+                    <label translate="true">Export (LGPD)</label>
                 </settings>
             </action>
         </massaction>

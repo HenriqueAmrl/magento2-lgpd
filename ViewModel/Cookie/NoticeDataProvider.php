@@ -5,10 +5,10 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\ViewModel\Cookie;
+namespace HenriqueAmrl\Lgpd\ViewModel\Cookie;
 
 use Magento\Framework\View\Element\Block\ArgumentInterface;
-use Opengento\Gdpr\Model\Config\PrivacyMessage;
+use HenriqueAmrl\Lgpd\Model\Config\PrivacyMessage;
 
 final class NoticeDataProvider implements ArgumentInterface
 {

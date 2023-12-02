@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Erase;
+namespace HenriqueAmrl\Lgpd\Service\Erase;
 
 use InvalidArgumentException;
 use Magento\Framework\ObjectManagerInterface;

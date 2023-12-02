@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Service\Erase\ProcessorResolver;
+namespace HenriqueAmrl\Lgpd\Service\Erase\ProcessorResolver;
 
 use InvalidArgumentException;
 use Magento\Framework\ObjectManagerInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorInterface;
-use Opengento\Gdpr\Service\Erase\ProcessorResolverInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorInterface;
+use HenriqueAmrl\Lgpd\Service\Erase\ProcessorResolverInterface;
 use function sprintf;
 
 final class ProcessorResolver implements ProcessorResolverInterface

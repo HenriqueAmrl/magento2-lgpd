@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Opengento\Gdpr\Cron;
+namespace HenriqueAmrl\Lgpd\Cron;
 
 use Exception;
 use Magento\Framework\Api\SearchCriteriaBuilder;
@@ -13,11 +13,11 @@ use Magento\Framework\Api\SearchResultsInterface;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Registry;
 use Magento\Framework\Stdlib\DateTime\DateTime;
-use Opengento\Gdpr\Api\Data\EraseEntityInterface;
-use Opengento\Gdpr\Api\Data\EraseEntitySearchResultsInterface;
-use Opengento\Gdpr\Api\EraseEntityManagementInterface;
-use Opengento\Gdpr\Api\EraseEntityRepositoryInterface;
-use Opengento\Gdpr\Model\Config;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntityInterface;
+use HenriqueAmrl\Lgpd\Api\Data\EraseEntitySearchResultsInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityManagementInterface;
+use HenriqueAmrl\Lgpd\Api\EraseEntityRepositoryInterface;
+use HenriqueAmrl\Lgpd\Model\Config;
 use Psr\Log\LoggerInterface;
 
 /**
